@@ -1,7 +1,7 @@
 import '../css/Home.css';
 
 // import homeBanner1 from '/images/banners/home-banner-1.jpg';
-import homeBanner2 from '/images/banners/home-banner-2.jpg';
+import homeBanner2 from '/images/banners/home-banner-2.avif';
 
 const Home = () => {
   return (
