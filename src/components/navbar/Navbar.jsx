@@ -4,8 +4,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import "./Navbar.css";
 import logo from "../../assets/images/logo/logo.png";
+import { Button } from "@mui/material";
+import "./Navbar.css";
 
 const MyNavbar = () => {
   const [show, setShow] = useState(false);
@@ -38,33 +39,33 @@ const MyNavbar = () => {
         <Offcanvas.Body>
           <Nav className="justify-content-end flex-grow-1">
             <Nav.Link as={NavLink} to="/" onClick={handleClose}>
-              Home
+              <Button className="nav-link-btn">Home</Button>
             </Nav.Link>
             <Nav.Link as={NavLink} to="/about" onClick={handleClose}>
-              About Us
+              <Button className="nav-link-btn">About Us</Button>
             </Nav.Link>
 
             {/* Bootstrap Dropdown */}
             <NavDropdown title="Brands" id="navbarDropdown">
               <NavDropdown.Item as={NavLink} to="/tandhan-power" onClick={handleClose}>
-                Tandhan Power
+                <Button className="dropdown-item-btn">Tandhan Power</Button>
               </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/tandhan-polyplast" onClick={handleClose}>
-                Tandhan Polyplast
+                <Button className="dropdown-item-btn">Tandhan Polyplast</Button>
               </NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to="/riz-prime" onClick={handleClose}>
-                Riz Prime
+                <Button className="dropdown-item-btn">Riz Prime</Button>
               </NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link as={NavLink} to="/media" onClick={handleClose}>
-              Media
+              <Button className="nav-link-btn">Media</Button>
             </Nav.Link>
             <Nav.Link as={NavLink} to="/blogs" onClick={handleClose}>
-              Blogs
+              <Button className="nav-link-btn">Blogs</Button>
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
-              Contact
+              <Button className="nav-link-btn">Contact</Button>
             </Nav.Link>
           </Nav>
         </Offcanvas.Body>

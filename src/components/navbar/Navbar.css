@@ -11,33 +11,80 @@
   width: 150px;
 }
 .navbar .nav-link{
-  color: #fff !important;
+  /* color: #fff !important;
   font-weight: 700;
   font-size: calc(0.55rem + 0.5vw);
   margin-left: 0.8rem;
   padding: 0.5rem 1rem !important;
-  border-radius: 2px;
+  border-radius: 2px; */
+  padding: 0 !important;
+  /* border-radius: 2px; */
+  margin-left: 1rem;
 }
-.navbar .nav-link:hover{
+/* .navbar .nav-link:hover{
   background-color: #fff !important;
   color: #3ebf89 !important;
 }
 .navbar .nav-link.active{
   background-color: #3ebf89 !important;
   color: #fff !important;
-}
+} */
 .navbar .dropdown-menu{
-  padding: 0.8rem;
+  padding: 0.7rem;
 }
 .navbar .dropdown-item{
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem;
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 3px; */
+  padding: 0;
+  /* border-radius: 3px; */
 }
-.navbar .dropdown-item:hover{
+/* .navbar .dropdown-item:hover{
+  background-color: #3ebf89 !important;
+  color: #fff !important;
+} */
+
+.nav-link-btn,
+#navbarDropdown{
+  color: #fff !important;
+  background: transparent !important;
+  text-transform: none !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: calc(0.55rem + 0.5vw) !important;
+  padding: 0.4rem 1rem !important;
+  border-radius: 3px !important;
+  overflow: hidden;
+}
+#navbarDropdown{
+  padding: 0.53rem 1.2rem !important;
+} 
+.nav-link-btn:hover,
+#navbarDropdown:hover{
+  background-color: #fff !important;
+  color: #3ebf89 !important;
+}
+.navbar .nav-link.active .nav-link-btn{
   background-color: #3ebf89 !important;
   color: #fff !important;
 }
+.navbar .dropdown-item-btn{
+  width: 100%;
+  background-color: transparent !important;
+  color: #424242 !important;
+  text-transform: none;
+  padding: 0.4rem 0.8rem !important;
+  font-weight: 550;
+  border-radius: 3px !important;
+  font-size: calc(0.5rem + 0.5vw) !important;
+  justify-content: left;
+  transition: none;
+}
+.navbar .dropdown-item-btn:hover{
+  background-color: #3ebf89 !important;
+  color: #fff !important;
+}
+
 
 @media (max-width: 992px){
   .navbar {
