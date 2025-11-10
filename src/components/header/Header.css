@@ -12,7 +12,7 @@ header{
     border-bottom: 1px solid rgba(255, 255, 255, 0.438);
 }
 header .header-left span{
-    font-size: calc(0.6rem + 0.5vw);
+    font-size: calc(0.55rem + 0.5vw);
     font-weight: 450;
 }
 header .header-right{
@@ -25,26 +25,30 @@ header .header-right .head-box{
 }
 header .header-right .head-box p{
     margin: 0;
-    font-size: calc(0.6rem + 0.5vw);
+    font-size: calc(0.55rem + 0.5vw);
 }
 header .header-right .head-box .icon{
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: calc(0.68rem + 0.5vw);
     margin-right: 8px;
 }
 header .header-right .head-box:first-child .icon{
-    font-size: calc(0.95rem + 0.5vw);
+    font-size: calc(0.9rem + 0.5vw);
 }
 header .header-right .social-icons{
     display: flex;
     gap: 1rem;
 }
 header .header-right .social-icons a{
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: calc(0.6rem + 0.5vw);
     color: #fff;
-    width: 35px;
-    height: 35px;
-    line-height: 31px;
+    width: 32px;
+    height: 32px;
+    line-height: 29px;
     text-align: center;
     border-radius: 50%;
     background-color: #3ebf89;
+    transition: all 0.2s ease;
+}
+header .header-right .social-icons a:hover{
+    background-color: #29ab74;
 }
