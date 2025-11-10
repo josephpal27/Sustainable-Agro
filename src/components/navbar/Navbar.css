@@ -15,17 +15,15 @@
   font-weight: 700;
   font-size: calc(0.55rem + 0.5vw);
   margin-left: 0.8rem;
-  padding: 0.4rem 0.7rem !important;
-  border: 3px solid transparent;
-}
-.navbar .nav-link.active {
-  border: 3px solid #3ebf89;
-  background-color: #3ebf89 !important;
+  padding: 0.5rem 1rem !important;
   border-radius: 2px;
 }
-
 .navbar .nav-link:hover {
-  border: 3px solid #3ebf89;
+  color: #c2ffe6 !important;
+}
+.navbar .nav-link.active {
+  background-color: #3ebf89 !important;
+  color: #fff !important;
 }
 
 @media (max-width: 992px) {
