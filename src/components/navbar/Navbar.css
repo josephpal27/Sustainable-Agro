@@ -1,8 +1,8 @@
 .navbar {
-  padding: 0.8rem 7% !important;
+  padding: 1.3rem 7% !important;
   background: transparent;
   position: absolute;
-  top: 0;
+  top: 3.8rem;
   width: 100%;
 }
 
@@ -19,13 +19,13 @@
   border: 3px solid transparent;
 }
 .navbar .nav-link.active {
-  border: 3px solid #179cab;
-  background-color: #179cab !important;
+  border: 3px solid #3ebf89;
+  background-color: #3ebf89 !important;
   border-radius: 2px;
 }
 
 .navbar .nav-link:hover {
-  border: 3px solid #179cab;
+  border: 3px solid #3ebf89;
 }
 
 @media (max-width: 992px) {
@@ -43,7 +43,7 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .offcanvas {
-    background: #179cab;
+    background: #3ebf89;
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo{
