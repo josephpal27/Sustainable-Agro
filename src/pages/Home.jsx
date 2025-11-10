@@ -1,6 +1,6 @@
 import '../css/Home.css';
 
-import homeBanner from '/images/banners/home-banner.jpg';
+import homeBanner from '/images/banners/home-banner.avif';
 
 const Home = () => {
   return (
