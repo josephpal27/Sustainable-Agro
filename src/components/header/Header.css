@@ -1,7 +1,7 @@
 header{
     padding: 0.8rem 7%;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,7 +9,6 @@ header{
     top: 0;
     width: 100%;
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
 }
 header .header-left span{
     font-size: calc(0.55rem + 0.5vw);

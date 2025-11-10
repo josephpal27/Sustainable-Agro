@@ -1,9 +1,11 @@
 .navbar {
   padding: 1.3rem 7% !important;
   background: transparent;
+  backdrop-filter: blur(10px);
   position: absolute;
-  top: 3.8rem;
+  top: 3.6rem;
   width: 100%;
+  border-top: 2px solid rgba(255, 255, 255, 0.485);
 }
 .navbar .nav-brand img{
   width: 150px;
@@ -17,7 +19,8 @@
   border-radius: 2px;
 }
 .navbar .nav-link:hover{
-  color: #c2ffe6 !important;
+  background-color: #fff !important;
+  color: #3ebf89 !important;
 }
 .navbar .nav-link.active {
   background-color: #3ebf89 !important;
