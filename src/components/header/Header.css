@@ -1,0 +1,50 @@
+header{
+    padding: 0.8rem 7%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+}
+header .header-left span{
+    font-size: calc(0.6rem + 0.5vw);
+    font-weight: 450;
+}
+header .header-right{
+    display: flex;
+    gap: 2rem;
+}
+header .header-right .head-box{
+    display: flex;
+    align-items: center;
+}
+header .header-right .head-box p{
+    margin: 0;
+    font-size: calc(0.6rem + 0.5vw);
+}
+header .header-right .head-box .icon{
+    font-size: calc(0.8rem + 0.5vw);
+    margin-right: 8px;
+}
+header .header-right .head-box:first-child .icon{
+    font-size: calc(0.95rem + 0.5vw);
+}
+header .header-right .social-icons{
+    display: flex;
+    gap: 1rem;
+}
+header .header-right .social-icons a{
+    font-size: calc(0.7rem + 0.5vw);
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 31px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #3ebf89;
+}
