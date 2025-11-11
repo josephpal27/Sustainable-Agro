@@ -6,6 +6,7 @@
   top: 3.6rem;
   width: 100%;
   border-top: 2px solid rgba(255, 255, 255, 0.485);
+  z-index: 100;
 }
 .navbar .nav-brand img{
   width: 150px;

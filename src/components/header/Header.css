@@ -9,6 +9,7 @@ header{
     top: 0;
     width: 100%;
     color: #fff;
+    z-index: 100;
 }
 header .header-left span{
     font-size: calc(0.55rem + 0.5vw);
