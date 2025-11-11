@@ -1,0 +1,53 @@
+.highlights-cards-row{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 3px;
+    position: relative;
+}
+.highlights-cards-row .highlight-card{
+    width: 24%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #e0e0e0;
+}
+.highlights-cards-row .highlight-card:last-child{
+    border-right: none;
+}
+.highlights-cards-row .highlight-card img{
+    width: 27%;
+}
+.highlights-cards-row .highlight-card span{
+    color: #044b2d;
+    font-family: Neutro-Black, sans-serif;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 500;
+    display: block;
+    margin-top: 1.5rem;
+}
+.highlights-cards-row .highlight-card p{
+    color: #4a4a4a;
+    font-size: calc(0.6rem + 0.5vw);
+    margin-top: 0.4rem;
+    text-align: center;
+}
+.highlights-cards-row .highlight-card a{
+    color: #3ebf89;
+    font-size: calc(0.5rem + 0.5vw);
+    text-decoration: none;
+    display: block;
+    margin-top: 0.5rem;
+    background-color: #f7f7f7;
+    padding: 0.3rem 0.7rem;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+.highlights-cards-row .highlight-card a:hover{
+    color: #fff;
+    background-color: #3ebf89;
+}

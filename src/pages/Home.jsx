@@ -2,10 +2,12 @@ import '../css/Home.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/effect-fade'; 
+import 'swiper/css/effect-fade';
 
 import homeBanner1 from '/images/banners/home-banner-1.avif';
 import homeBanner2 from '/images/banners/home-banner-2.avif';
+
+import HighlightsRow from '../components/highlights/HighlightsRow';
 
 const Home = () => {
 
@@ -32,11 +34,7 @@ const Home = () => {
 
       {/* Highlights */}
       <section className="highlights">
-        <div className="highlights-cards-row">
-          <div className="highlight-card">
-            
-          </div>
-        </div>
+        <HighlightsRow/>
       </section>
     </>
   )
