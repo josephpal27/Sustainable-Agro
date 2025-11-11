@@ -51,3 +51,9 @@
     color: #fff;
     background-color: #3ebf89;
 }
+.highlights-cards-row .grass{
+    width: 100%;
+    position: absolute;
+    top: -0.8rem;
+    left: 0;
+}

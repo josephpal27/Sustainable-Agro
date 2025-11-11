@@ -6,6 +6,8 @@ import highlightImg2 from '../../assets/images/icons/urban.png';
 import highlightImg3 from '../../assets/images/icons/maintenance.png';
 import highlightImg4 from '../../assets/images/icons/fence.png';
 
+import grassImg from '../../assets/images/icons/grass.svg';
+
 const HighlightsRow = () => {
 
     let highlightsContent = [
@@ -50,6 +52,7 @@ const HighlightsRow = () => {
                         )
                     })
                 }
+                <img src={grassImg} alt="Grass" className="grass" loading="lazy" />
             </div>
         </>
     )

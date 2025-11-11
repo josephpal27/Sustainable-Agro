@@ -1,7 +1,7 @@
 /* Banner Slider Start */
 .banner-slider img{
     width: 100%;
-    height: 110vh;
+    height: 85vh;
     object-fit: cover;
 }
 .swiper-slide-active img {
@@ -21,7 +21,7 @@
 /* Highlights Start */
 .highlights{
     padding: 0 7% 1rem 7%;
-    margin-top: -4rem;
+    margin-top: -8rem;
     position: relative;
     z-index: 10;
 }
