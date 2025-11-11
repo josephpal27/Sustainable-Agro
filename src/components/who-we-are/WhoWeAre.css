@@ -21,3 +21,53 @@
       background-position: center bottom;
     }
 }
+
+.who-we-are-content{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.who-we-are-left{
+    width: 30%;
+}
+.who-we-are-center{
+    width: 30%;
+}
+.who-we-are-right{
+    width: 30%;
+}
+
+.who-we-are-left h2{
+    color: #000;
+    font-size: calc(3rem + 0.5vw);
+    font-weight: 900;
+}
+.who-we-are-left h2 span{
+    font-size: calc(2rem + 0.5vw);
+    font-weight: 100;
+    white-space: nowrap;
+    color: #4a4a4a;
+}
+.who-we-are-left .about-btn{
+    background-color: transparent;
+    color: #4a4a4a;
+    border: 2px solid #3ebf89;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.7rem 1.2rem;
+    font-weight: 600;
+    font-size: calc(0.5rem + 0.5vw);
+}
+.who-we-are-left .about-btn:hover{
+    background-color: #3ebf89;
+    color: #fff;
+}
+.who-we-are-center img{
+    width: 100%;
+}
+.who-we-are-right p{
+    color: #4a4a4a;
+    font-size: calc(0.65rem + 0.5vw);
+}
