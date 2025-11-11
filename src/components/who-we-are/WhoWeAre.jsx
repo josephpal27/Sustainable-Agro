@@ -21,6 +21,7 @@ const WhoWeAre = () => {
                         <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
                         <p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi</p>
                     </div>
+                    <span id="who-we-are-bg-text">AGRO</span>
                 </div>
             </section>
         </>

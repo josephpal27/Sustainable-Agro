@@ -1,5 +1,5 @@
 .who-we-are{
-    padding: 4rem 7%;
+    padding: 3rem 7%;
 }
 .who-we-are h1{
     text-align: center;
@@ -28,15 +28,13 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
-.who-we-are-left{
-    width: 30%;
-}
-.who-we-are-center{
-    width: 30%;
-}
+.who-we-are-left,
+.who-we-are-center,
 .who-we-are-right{
     width: 30%;
+    z-index: 2;
 }
 
 .who-we-are-left h2{
@@ -70,4 +68,19 @@
 .who-we-are-right p{
     color: #4a4a4a;
     font-size: calc(0.65rem + 0.5vw);
+}
+#who-we-are-bg-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(25rem + 0.5vw);
+    font-weight: 900;
+    color: #fef7db;
+    letter-spacing: 10px;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+    white-space: nowrap;
+    display: block;
 }
