@@ -29,6 +29,15 @@ const Home = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+
+      {/* Highlights */}
+      <section className="highlights">
+        <div className="highlights-cards-row">
+          <div className="highlight-card">
+            
+          </div>
+        </div>
+      </section>
     </>
   )
 }
