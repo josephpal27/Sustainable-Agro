@@ -1,0 +1,23 @@
+.who-we-are{
+    padding: 4rem 7%;
+}
+.who-we-are h1{
+    text-align: center;
+    font-size: calc(6rem + 0.5vw);
+    font-weight: 900;
+    background-image: url('../../assets//images//about-head-bg.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bgMove 7s ease-in-out infinite alternate;
+}
+@keyframes bgMove {
+    0% {
+      background-position: center top;
+    }
+    100% {
+      background-position: center bottom;
+    }
+}
