@@ -8,6 +8,7 @@ import homeBanner1 from '/images/banners/home-banner-1.avif';
 import homeBanner2 from '/images/banners/home-banner-2.avif';
 
 import HighlightsRow from '../components/highlights/HighlightsRow';
+import WhoWeAre from '../components/who-we-are/WhoWeAre';
 
 const Home = () => {
 
@@ -36,6 +37,9 @@ const Home = () => {
       <section className="highlights">
         <HighlightsRow/>
       </section>
+
+      {/* Who We Are */}
+      <WhoWeAre/>
     </>
   )
 }
