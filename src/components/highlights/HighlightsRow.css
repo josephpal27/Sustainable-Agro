@@ -10,7 +10,7 @@
 }
 .highlights-cards-row .highlight-card{
     width: 24%;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,6 @@
 }
 .highlights-cards-row .highlight-card span{
     color: #044b2d;
-    font-family: Neutro-Black, sans-serif;
     font-size: calc(1rem + 0.5vw);
     font-weight: 500;
     display: block;
@@ -32,18 +31,20 @@
 }
 .highlights-cards-row .highlight-card p{
     color: #4a4a4a;
-    font-size: calc(0.6rem + 0.5vw);
+    font-size: calc(0.7rem + 0.5vw);
     margin-top: 0.4rem;
     text-align: center;
+    font-weight: 450;
 }
 .highlights-cards-row .highlight-card a{
     color: #3ebf89;
-    font-size: calc(0.5rem + 0.5vw);
+    font-size: calc(0.6rem + 0.5vw);
+    font-weight: 450;
     text-decoration: none;
     display: block;
     margin-top: 0.5rem;
     background-color: #f7f7f7;
-    padding: 0.3rem 0.7rem;
+    padding: 0.3rem 1rem;
     border-radius: 3px;
     transition: all 0.2s ease;
 }

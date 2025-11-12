@@ -12,7 +12,7 @@ header{
     z-index: 100;
 }
 header .header-left span{
-    font-size: calc(0.55rem + 0.5vw);
+    font-size: calc(0.6rem + 0.5vw);
     font-weight: 450;
 }
 header .header-right{
@@ -25,7 +25,7 @@ header .header-right .head-box{
 }
 header .header-right .head-box p{
     margin: 0;
-    font-size: calc(0.55rem + 0.5vw);
+    font-size: calc(0.6rem + 0.5vw);
 }
 header .header-right .head-box .icon{
     font-size: calc(0.68rem + 0.5vw);

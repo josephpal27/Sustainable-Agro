@@ -54,12 +54,12 @@
   font-weight: 600 !important;
   font-size: calc(0.65rem + 0.5vw) !important;
   font-family: "Anek Bangla", sans-serif !important;
-  padding: 0.4rem 1rem !important;
+  padding: 0.35rem 1rem !important;
   border-radius: 3px !important;
   overflow: hidden;
 }
 #navbarDropdown{
-  padding: 0.53rem 1.2rem !important;
+  padding: 0.49rem 1.2rem !important;
 } 
 .nav-link-btn:hover,
 #navbarDropdown:hover{
