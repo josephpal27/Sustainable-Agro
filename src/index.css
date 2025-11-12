@@ -8,15 +8,6 @@ html{
     scroll-behavior: unset !important;
 }
 
-@font-face {
-    font-family: Neutro-Black, sans-serif;
-    src: url(./assets/fonts/Neutro-Black.ttf);
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: Neutro-Black, sans-serif;
-}
-
-p, li, a{
-    font-family: "Open Sans", sans-serif;
+body{
+    font-family: "Anek Bangla", sans-serif;
 }

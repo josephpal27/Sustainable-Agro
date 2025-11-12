@@ -3,7 +3,7 @@
 }
 .who-we-are h1{
     text-align: center;
-    font-size: calc(6rem + 0.5vw);
+    font-size: calc(7rem + 0.5vw);
     font-weight: 900;
     background-image: url('../../assets//images//about-head-bg.avif');
     background-size: cover;
@@ -39,12 +39,12 @@
 
 .who-we-are-left h2{
     color: #000;
-    font-size: calc(3rem + 0.5vw);
+    font-size: calc(3.5rem + 0.5vw);
     font-weight: 900;
 }
 .who-we-are-left h2 span{
-    font-size: calc(2rem + 0.5vw);
-    font-weight: 100;
+    font-size: calc(2.5rem + 0.5vw);
+    font-weight: 200;
     white-space: nowrap;
     color: #4a4a4a;
 }
@@ -54,8 +54,8 @@
     border: 2px solid #3ebf89;
     border-radius: 5px;
     margin-top: 1rem;
-    padding: 0.7rem 1.2rem;
-    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    font-weight: 550;
     font-size: calc(0.5rem + 0.5vw);
 }
 .who-we-are-left .about-btn:hover{
@@ -67,14 +67,14 @@
 }
 .who-we-are-right p{
     color: #4a4a4a;
-    font-size: calc(0.65rem + 0.5vw);
+    font-size: calc(0.7rem + 0.5vw);
 }
 #who-we-are-bg-text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: calc(25rem + 0.5vw);
+    font-size: calc(27rem + 0.5vw);
     font-weight: 900;
     color: #fef7db;
     letter-spacing: 10px;
