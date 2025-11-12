@@ -51,8 +51,9 @@
   background: transparent !important;
   text-transform: none !important;
   color: #fff !important;
-  font-weight: 700 !important;
-  font-size: calc(0.55rem + 0.5vw) !important;
+  font-weight: 600 !important;
+  font-size: calc(0.65rem + 0.5vw) !important;
+  font-family: "Anek Bangla", sans-serif !important;
   padding: 0.4rem 1rem !important;
   border-radius: 3px !important;
   overflow: hidden;
@@ -74,10 +75,11 @@
   background-color: transparent !important;
   color: #424242 !important;
   text-transform: none;
-  padding: 0.4rem 0.8rem !important;
-  font-weight: 550;
+  padding: 0.35rem 0.8rem !important;
+  font-weight: 570;
   border-radius: 3px !important;
-  font-size: calc(0.5rem + 0.5vw) !important;
+  font-size: calc(0.6rem + 0.5vw) !important;
+  font-family: "Anek Bangla", sans-serif !important;
   justify-content: left;
   transition: none;
 }
