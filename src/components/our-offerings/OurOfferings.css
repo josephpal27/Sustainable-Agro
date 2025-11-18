@@ -1,0 +1,47 @@
+.our-offerings{
+    padding: 4rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.our-offerings .box{
+    padding: 3rem 0;
+    width: 24%;
+    background-color: #3ebf89;
+    margin-bottom: 1.2rem;
+}
+.our-offerings .large-box{
+    width: 49.3%;
+}
+/* .our-offerings .large-box:nth-child(1){
+    padding: 4rem 3rem;
+} */
+.our-offerings .large-box h4{
+    color: #000;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+}
+.our-offerings .large-box h4 span{
+    font-weight: 200;
+}
+.our-offerings .large-box p{
+    margin-top: 1rem;
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    width: 90%;
+}
+.our-offerings .large-box button{
+    background-color: #3ebf89;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.55rem 1.6rem;
+    font-weight: 550;
+    font-size: calc(0.7rem + 0.5vw);
+    font-family: "Anek Bangla", sans-serif !important;
+    text-transform: none;
+}
+.our-offerings .large-box button:hover{
+    background-color: #28a370;
+}

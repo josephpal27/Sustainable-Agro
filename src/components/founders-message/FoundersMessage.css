@@ -1,10 +1,10 @@
 .founders-msg{
     position: relative;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     background: linear-gradient(to bottom, #e1fff2, #fff);
 }
 .founders-msg .founders-msg-content{
-    padding: 4rem 7%;
+    padding: 4.5rem 7% 4rem 7%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

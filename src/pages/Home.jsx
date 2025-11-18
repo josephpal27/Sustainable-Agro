@@ -10,6 +10,7 @@ import homeBanner2 from '/images/banners/home-banner-2.avif';
 import HighlightsRow from '../components/highlights/HighlightsRow';
 import WhoWeAre from '../components/who-we-are/WhoWeAre';
 import FoundersMessage from '../components/founders-message/FoundersMessage';
+import OurOfferings from '../components/our-offerings/OurOfferings';
 
 const Home = () => {
 
@@ -44,6 +45,10 @@ const Home = () => {
 
       {/* Founder's Message */}
       <FoundersMessage/>
+
+      {/* Our Offerings */}
+      <OurOfferings/>
+
     </>
   )
 }
