@@ -2,13 +2,13 @@ import { Link } from 'react-router-dom';
 import './OurOfferings.css';
 import { Button } from '@mui/material';
 
-import offeringImg1 from '../../assets/images/offerings/1.jpg';
-import offeringImg2 from '../../assets/images/offerings/2.jpg';
-import offeringImg3 from '../../assets/images/offerings/3.jpg';
-import offeringImg4 from '../../assets/images/offerings/4.jpg';
-import offeringImg5 from '../../assets/images/offerings/5.jpg';
-import offeringImg6 from '../../assets/images/offerings/6.jpg';
-import offeringImg7 from '../../assets/images/offerings/7.jpeg';
+import offeringImg1 from '../../assets/images/offerings/1.avif';
+import offeringImg2 from '../../assets/images/offerings/2.avif';
+import offeringImg3 from '../../assets/images/offerings/3.avif';
+import offeringImg4 from '../../assets/images/offerings/4.avif';
+import offeringImg5 from '../../assets/images/offerings/5.avif';
+import offeringImg6 from '../../assets/images/offerings/6.avif';
+import offeringImg7 from '../../assets/images/offerings/7.avif';
 
 const OurOfferings = () => {
     return (
