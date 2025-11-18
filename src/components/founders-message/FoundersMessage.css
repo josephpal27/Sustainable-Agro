@@ -1,0 +1,84 @@
+.founders-msg{
+    position: relative;
+    margin-top: 3rem;
+    background: linear-gradient(to bottom, #e1fff2, #fff);
+}
+.founders-msg .founders-msg-content{
+    padding: 4rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.founders-msg .founder-msg-left{
+    width: 40%;
+}
+.founders-msg .founder-msg-left h3{
+    font-size: calc(1.2rem + 0.5vw);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.founders-msg .founder-msg-left h3 span{
+    font-weight: 300;
+}
+.founders-msg .founder-msg-left p{
+    font-size: calc(2rem + 0.5vw);
+    font-weight: 300;
+    color: #4a4a4a;
+    line-height: 1.3;
+    margin-top: 1.5rem;
+}
+.founders-msg .founder-msg-left button{
+    background-color: #3ebf89;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.55rem 1.6rem;
+    font-weight: 550;
+    font-size: calc(0.7rem + 0.5vw);
+    font-family: "Anek Bangla", sans-serif !important;
+    text-transform: none;
+}
+.founders-msg .founder-msg-left button:hover{
+    background-color: #28a370;
+}
+.founders-msg .founder-msg-right{
+    width: 25%;
+}
+.founders-msg .founder-msg-right .founder-card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0.7rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.442) 0px 2px 4px;
+}
+.founders-msg .founder-msg-right .founder-card .card-image{
+    display: flex;
+    justify-content: space-between;
+}
+.founders-msg .founder-msg-right .circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #e5fff4;
+    box-shadow: rgba(204, 219, 232, 0.644) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.307) -3px -3px 6px 1px inset;
+}
+.founders-msg .founder-msg-right img{
+    width: 60%;
+    border-radius: 9px;
+}
+.founders-msg .founder-msg-right p{
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+}
+.founders-msg .founder-image img{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-mask-image: linear-gradient(to bottom, #e1fff2 30%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to bottom, #e1fff2 30%, rgba(0,0,0,0) 100%);
+}

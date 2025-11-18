@@ -1,5 +1,6 @@
 .who-we-are{
     padding: 3rem 7%;
+    overflow: hidden;
 }
 .who-we-are h1{
     text-align: center;
@@ -58,6 +59,7 @@
     font-weight: 550;
     font-size: calc(0.7rem + 0.5vw);
     font-family: "Anek Bangla", sans-serif !important;
+    text-transform: none;
 }
 .who-we-are-left .about-btn:hover{
     background-color: #3ebf89;

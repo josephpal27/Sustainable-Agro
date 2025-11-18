@@ -12,7 +12,7 @@ const WhoWeAre = () => {
                 <div className="who-we-are-content">
                     <div className="who-we-are-left">
                         <h2>ABOUT <br /> <span>SUSTAINABLE AGRO</span> </h2>
-                        <Link to="/about"> <Button className="about-btn">KNOW MORE</Button> </Link>
+                        <Link to="/about"> <Button className="about-btn">Know More</Button> </Link>
                     </div>
                     <div className="who-we-are-center">
                         <img src={aboutImg} alt="Rice" loading="lazy" />
