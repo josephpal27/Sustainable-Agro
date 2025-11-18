@@ -2,6 +2,14 @@ import { Link } from 'react-router-dom';
 import './OurOfferings.css';
 import { Button } from '@mui/material';
 
+import offeringImg1 from '../../assets/images/offerings/1.jpg';
+import offeringImg2 from '../../assets/images/offerings/2.jpg';
+import offeringImg3 from '../../assets/images/offerings/3.jpg';
+import offeringImg4 from '../../assets/images/offerings/4.jpg';
+import offeringImg5 from '../../assets/images/offerings/5.jpg';
+import offeringImg6 from '../../assets/images/offerings/6.jpg';
+import offeringImg7 from '../../assets/images/offerings/7.jpeg';
+
 const OurOfferings = () => {
     return (
         <>
@@ -12,28 +20,56 @@ const OurOfferings = () => {
                     <Link to="/products"><Button>View All Products</Button></Link>
                 </div>
                 <div className="box">
-                    <span>Product</span>
+                    <img src={offeringImg1} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Rice</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
                 </div>
                 <div className="box">
-                    <span>Product</span>
+                    <img src={offeringImg2} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cashews</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
                 </div>
                 <div className="box">
-                    <span>Product</span>
+                    <img src={offeringImg3} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cotton</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
                 </div>
                 <div className="box">
-                    <span>Product</span>
+                    <img src={offeringImg4} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cocoa</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
+                </div>
+                <div className="box large-box" id="large-text-box">
+                    <span>12 TYPES OF <br /> PRODUCTS</span>
+                </div>
+                <div className="box">
+                    <img src={offeringImg5} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Rice</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
                 </div>
                 <div className="box large-box">
-                    <span>Product</span>
+                    <img src={offeringImg7} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Shade Nets</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
                 </div>
                 <div className="box">
-                    <span>Product</span>
-                </div>
-                <div className="box large-box">
-                    <span>Product</span>
-                </div>
-                <div className="box">
-                    <span>Product</span>
+                    <img src={offeringImg6} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cotton</span>
+                        <Link to="/"><Button>View Product</Button></Link>
+                    </div>
                 </div>
             </section>
         </>

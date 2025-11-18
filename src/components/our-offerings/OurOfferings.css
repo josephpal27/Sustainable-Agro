@@ -5,17 +5,20 @@
     flex-wrap: wrap;
 }
 .our-offerings .box{
-    padding: 3rem 0;
     width: 24%;
-    background-color: #3ebf89;
     margin-bottom: 1.2rem;
+    position: relative;
+    overflow: hidden;
 }
 .our-offerings .large-box{
     width: 49.3%;
 }
-/* .our-offerings .large-box:nth-child(1){
-    padding: 4rem 3rem;
-} */
+.our-offerings #large-text-box{
+    background-color: #3ebf89;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .our-offerings .large-box h4{
     color: #000;
     font-size: calc(3.5rem + 0.5vw);
@@ -44,4 +47,67 @@
 }
 .our-offerings .large-box button:hover{
     background-color: #28a370;
+}
+.our-offerings .box img{
+    width: 100%;
+}
+.our-offerings .large-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-offerings #large-text-box span{
+    color: #fff;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.2;
+}
+.our-offerings .box .layer{
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #3ebf89b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+.our-offerings .box:hover .layer{
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.our-offerings .box .layer span{
+    color: #fff;
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.our-offerings .box:hover .layer span{
+    opacity: 1;
+}
+.our-offerings .box .layer button{
+    background-color: #fff;
+    color: #3ebf89;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.2rem 0.8rem;
+    font-weight: 550;
+    font-size: calc(0.55rem + 0.5vw);
+    font-family: "Anek Bangla", sans-serif !important;
+    text-transform: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.our-offerings .box:hover .layer button{
+    opacity: 1;
 }
