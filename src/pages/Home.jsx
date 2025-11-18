@@ -9,6 +9,7 @@ import homeBanner2 from '/images/banners/home-banner-2.avif';
 
 import HighlightsRow from '../components/highlights/HighlightsRow';
 import WhoWeAre from '../components/who-we-are/WhoWeAre';
+import FoundersMessage from '../components/founders-message/FoundersMessage';
 
 const Home = () => {
 
@@ -40,6 +41,9 @@ const Home = () => {
 
       {/* Who We Are */}
       <WhoWeAre/>
+
+      {/* Founder's Message */}
+      <FoundersMessage/>
     </>
   )
 }
