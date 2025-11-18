@@ -11,6 +11,7 @@ import HighlightsRow from '../components/highlights/HighlightsRow';
 import WhoWeAre from '../components/who-we-are/WhoWeAre';
 import FoundersMessage from '../components/founders-message/FoundersMessage';
 import OurOfferings from '../components/our-offerings/OurOfferings';
+import BlogPosts from '../components/blog-posts/BlogPosts';
 
 const Home = () => {
 
@@ -48,6 +49,9 @@ const Home = () => {
 
       {/* Our Offerings */}
       <OurOfferings/>
+
+      {/* Blog Posts */}
+      <BlogPosts/>
 
     </>
   )
