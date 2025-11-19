@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="foot-box">
                 <img src={footLogo} alt="Logo" loading="lazy" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sit, iure quas mollitia quam voluptatem doloremque hic blanditiis iste maxime quod reprehenderit vero ab suscipit facilis fugiat vel molestias delectus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sit, iure quas mollitia quam voluptatem doloremque hic blanditiis.</p>
             </div>
             <div className="foot-box">
                 <span>Quick Links</span>
@@ -30,8 +30,8 @@ const Footer = () => {
             <div className="foot-box">
                 <span>Get In Touch</span>
                 <a href="#"><IoHomeSharp className="icon" /> 202 Park Avenue, New York City</a>
-                <a href="#"><IoMailOpen className="icon"/> example@gmail.com</a>
-                <a href="#"><FaPhone className="icon" /> +91 123 456 7890</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=example@gmail.com" target="_blank" ><IoMailOpen className="icon"/> example@gmail.com</a>
+                <a href="tel:+911234567890"><FaPhone className="icon phone-icon" /> +91 123 456 7890</a>
                 <div className="social-icons">
                     <a href="#" target="_blank"><FaFacebookF className="icon" /></a>
                     <a href="#" target="_blank"><FaInstagram className="icon" /></a>
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="copyright">
-
+            <p>Copyright © 2025 | Sustainable Agro | All Rights Reserved</p>
         </div>
       </footer>
     </>
