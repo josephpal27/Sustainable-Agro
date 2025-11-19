@@ -48,7 +48,7 @@ const OurOfferings = () => {
                     </div>
                 </div>
                 <div className="box large-box" id="large-text-box">
-                    <span>12 TYPES OF <br /> PRODUCTS</span>
+                    <span>LOREM IPSUM <br /> DOLAR SIT</span>
                 </div>
                 <div className="box">
                     <img src={offeringImg5} alt="Product" loading="lazy" />
