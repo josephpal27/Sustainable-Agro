@@ -25,6 +25,24 @@
     position: relative;
     z-index: 10;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+  .highlights{
+      margin-top: -7.4rem;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+  .highlights{
+      margin-top: -6.7rem;
+  }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
 /* Highlights End */
 
 

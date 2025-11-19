@@ -58,3 +58,56 @@
     top: -0.8rem;
     left: 0;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .highlights-cards-row{
+        padding: 0.9rem 0;
+    }
+    .highlights-cards-row .highlight-card{
+        padding: 0.9rem 1.4rem;
+    }
+    .highlights-cards-row .highlight-card span{
+        font-size: calc(0.95rem + 0.5vw);
+        margin-top: 1.4rem;
+    }
+    .highlights-cards-row .highlight-card p{
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 0.35rem;
+    }
+    .highlights-cards-row .highlight-card a{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.45rem;
+        padding: 0.29rem 0.95rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .highlights-cards-row{
+        padding: 0.8rem 0;
+    }
+    .highlights-cards-row .highlight-card{
+        padding: 0.8rem 1.4rem;
+    }
+    .highlights-cards-row .highlight-card span{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    .highlights-cards-row .highlight-card p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
+    .highlights-cards-row .highlight-card a{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.35rem;
+        padding: 0.27rem 0.9rem;
+    }
+    .highlights-cards-row .grass{
+        top: -0.7rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
