@@ -46,6 +46,10 @@ const BlogPosts = () => {
             blogPostsContent.map((item, index) => {
               return (
                 <div className="blog-post-card" key={index}>
+                  <div className="blog-post-date">
+                    <span className="blog-date">{item.date}</span>
+                    <span className="blog-month">{item.month}</span>
+                  </div>
                   <div className="card-img">
                     <img src={item.img} alt="Blog Image" loading="lazy" />
                   </div>
