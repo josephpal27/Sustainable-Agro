@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom';
 import './BlogPosts.css';
 import { Button } from '@mui/material';
 
-import blogPost1 from '../../assets/images/blogs/1.jpg';
+import blogPost1 from '../../assets/images/blogs/1.avif';
+import blogPost2 from '../../assets/images/blogs/2.avif';
+import blogPost3 from '../../assets/images/blogs/3.avif';
 
 const BlogPosts = () => {
 
@@ -20,7 +22,7 @@ const BlogPosts = () => {
       id: 2,
       date: 5,
       month: "Feb",
-      img: blogPost1,
+      img: blogPost2,
       subTitle: "ORGANIC FOOD / TIPS & GUIDES",
       title: "Health Benefits of a Raw Food",
       description: "The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.",
@@ -29,7 +31,7 @@ const BlogPosts = () => {
       id: 3,
       date: 7,
       month: "Dec",
-      img: blogPost1,
+      img: blogPost3,
       subTitle: "DIET / TIPS & GUIDES",
       title: "Foods you should be eating",
       description: "The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.",
