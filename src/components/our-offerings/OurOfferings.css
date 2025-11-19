@@ -84,6 +84,9 @@
     bottom: 0;
     left: 0;
 }
+.our-offerings .large-box:hover .layer{
+    width: 97.2%;
+}
 .our-offerings .box .layer span{
     color: #fff;
     font-size: calc(2.2rem + 0.5vw);
