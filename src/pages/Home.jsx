@@ -13,6 +13,8 @@ import FoundersMessage from '../components/founders-message/FoundersMessage';
 import OurOfferings from '../components/our-offerings/OurOfferings';
 import BlogPosts from '../components/blog-posts/BlogPosts';
 
+import Footer from '../components/footer/Footer';
+
 const Home = () => {
 
   return (
@@ -52,6 +54,8 @@ const Home = () => {
 
       {/* Blog Posts */}
       <BlogPosts/>
+
+      <Footer/>
 
     </>
   )

@@ -60,7 +60,7 @@ const BlogPosts = () => {
                       <span className="blog-sub-title">{item.subTitle}</span>
                       <span className="blog-title">{item.title}</span>
                       <p>{item.description}</p>
-                      <Link to="/blog"><Button>Read More</Button></Link>
+                      <Link to="/blogs"><Button>Read More</Button></Link>
                     </div>
                   </div>
                 </div>
