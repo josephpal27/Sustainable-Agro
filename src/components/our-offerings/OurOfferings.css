@@ -111,3 +111,73 @@
 .our-offerings .box:hover .layer button{
     opacity: 1;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .our-offerings{
+        padding: 3.5rem 7% 3rem 7%;
+    }
+    .our-offerings .box{
+        margin-bottom: 1.05rem;
+    }
+    .our-offerings .large-box h4{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .our-offerings .large-box p{
+        margin-top: 0.9rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .our-offerings .large-box button{
+        margin-top: 0.9rem;
+        padding: 0.5rem 1.5rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .our-offerings #large-text-box span{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .our-offerings .box .layer span{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .our-offerings .box .layer button{
+        margin-top: 0.9rem;
+        padding: 0.19rem 0.75rem;
+        font-size: calc(0.5rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .our-offerings{
+        padding: 3rem 7% 2.5rem 7%;
+    }
+    .our-offerings .box{
+        margin-bottom: 0.95rem;
+    }
+    .our-offerings .large-box h4{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .our-offerings .large-box p{
+        margin-top: 0.6rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .our-offerings .large-box button{
+        margin-top: 0.6rem;
+        padding: 0.45rem 1.4rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .our-offerings #large-text-box span{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .our-offerings .box .layer span{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .our-offerings .box .layer button{
+        margin-top: 0.8rem;
+        padding: 0.17rem 0.6rem;
+        font-size: calc(0.45rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
