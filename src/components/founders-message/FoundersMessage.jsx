@@ -13,13 +13,13 @@ const FoundersMessage = () => {
                     <img src={founderImg} alt="Founder" loading="lazy" />
                 </div>
                 <div className="founders-msg-content">
-                    <div className="founder-msg-left">
+                    <div className="founder-msg-left" data-aos="fade">
                         <h3>Founder's <span>Message</span></h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nesciunt.</p>
                         <Link to="/about"><Button>Read More</Button></Link>
                     </div>
                     <div className="founder-msg-right">
-                        <div className="founder-card">
+                        <div className="founder-card" data-aos="fade-up">
                             <div className="card-image">
                                 <div className="circle"></div>
                                 <img src={founderImg2} alt="Founder" loading="lazy" />

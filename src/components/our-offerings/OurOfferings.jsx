@@ -15,9 +15,9 @@ const OurOfferings = () => {
         <>
             <section className="our-offerings">
                 <div className="box large-box">
-                    <h4>OUR <span>OFFERINGS</span></h4>
-                    <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
-                    <Link to="/products"><Button>View All Products</Button></Link>
+                    <h4 data-aos="fade-up">OUR <span>OFFERINGS</span></h4>
+                    <p data-aos="fade">Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
+                    <Link to="/products" data-aos="fade"><Button>View All Products</Button></Link>
                 </div>
                 <div className="box">
                     <img src={offeringImg1} alt="Product" loading="lazy" />
@@ -48,7 +48,7 @@ const OurOfferings = () => {
                     </div>
                 </div>
                 <div className="box large-box" id="large-text-box">
-                    <span>LOREM IPSUM <br /> DOLAR SIT</span>
+                    <span data-aos="fade">LOREM IPSUM <br /> DOLAR SIT</span>
                 </div>
                 <div className="box">
                     <img src={offeringImg5} alt="Product" loading="lazy" />

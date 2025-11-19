@@ -8,20 +8,20 @@ const WhoWeAre = () => {
     return (
         <>
             <section className="who-we-are">
-                <h1>WHO WE ARE</h1>
+                <h1 data-aos="fade-up">WHO WE ARE</h1>
                 <div className="who-we-are-content">
-                    <div className="who-we-are-left">
+                    <div className="who-we-are-left" data-aos="fade-left">
                         <h2>ABOUT <br /> <span>SUSTAINABLE AGRO</span> </h2>
                         <Link to="/about"> <Button className="about-btn">Know More</Button> </Link>
                     </div>
                     <div className="who-we-are-center">
                         <img src={aboutImg} alt="Rice" loading="lazy" />
                     </div>
-                    <div className="who-we-are-right">
+                    <div className="who-we-are-right" data-aos="fade-right">
                         <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
                         <p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi</p>
                     </div>
-                    <span id="who-we-are-bg-text">AGRO</span>
+                    <span id="who-we-are-bg-text" data-aos="fade" data-aos-once="true">AGRO</span>
                 </div>
             </section>
         </>

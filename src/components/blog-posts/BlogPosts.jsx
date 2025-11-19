@@ -41,13 +41,13 @@ const BlogPosts = () => {
   return (
     <>
       <section className="blog-posts">
-        <h5>BLOG <span>POSTS</span></h5>
-        <p>Latin words, combined with a handful of model sentence structures, <br /> to generate Lorem Ipsum which looks reasonable.</p>
+        <h5 data-aos="fade-up">BLOG <span>POSTS</span></h5>
+        <p data-aos="fade">Latin words, combined with a handful of model sentence structures, <br /> to generate Lorem Ipsum which looks reasonable.</p>
         <div className="blog-posts-row">
           {
             blogPostsContent.map((item, index) => {
               return (
-                <div className="blog-post-card" key={index}>
+                <div className="blog-post-card" key={index} data-aos="fade">
                   <div className="blog-post-date">
                     <span className="blog-date">{item.date}</span>
                     <span className="blog-month">{item.month}</span>
