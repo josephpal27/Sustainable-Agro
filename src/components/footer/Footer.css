@@ -1,4 +1,6 @@
 footer{
-    padding: 3rem 0;
     background-color: #3ebf89;
+}
+footer .footer-content{
+    padding: 3rem 7%;
 }

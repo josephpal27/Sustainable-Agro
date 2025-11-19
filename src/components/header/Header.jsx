@@ -20,9 +20,9 @@ const Header = () => {
                 <p>+91 123 456 7890</p>
             </div>
             <div className="social-icons">
-                <a href="" target="_blank"><FaFacebookF className="icon" /></a>
-                <a href="" target="_blank"><FaInstagram className="icon" /></a>
-                <a href="" target="_blank"><FaXTwitter className="icon" /></a>
+                <a href="#" target="_blank"><FaFacebookF className="icon" /></a>
+                <a href="#" target="_blank"><FaInstagram className="icon" /></a>
+                <a href="#" target="_blank"><FaXTwitter className="icon" /></a>
             </div>
         </div>
       </header>
