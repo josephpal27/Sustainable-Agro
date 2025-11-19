@@ -80,7 +80,6 @@
     transform: translate(-50%, -50%);
     font-size: calc(28rem + 0.5vw);
     font-weight: 900;
-    /* color: #fef7db; */
     color: #d4f9eb;
     letter-spacing: 10px;
     z-index: 1;
@@ -88,4 +87,70 @@
     pointer-events: none;
     white-space: nowrap;
     display: block;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .who-we-are{
+        padding: 2.5rem 7%;
+    }
+    .who-we-are h1{
+        font-size: calc(6.5rem + 0.5vw);
+    }
+    .who-we-are-content{
+        margin-top: 4.5rem;
+    }
+    .who-we-are-left h2{
+        font-size: calc(3.2rem + 0.5vw);
+    }
+    .who-we-are-left h2 span{
+        font-size: calc(2.2rem + 0.5vw);
+    }
+    .who-we-are-left .about-btn{
+        border: 1.5px solid #3ebf89;
+        margin-top: 0.9rem;
+        padding: 0.45rem 1.4rem;
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .who-we-are-right p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    #who-we-are-bg-text{
+        font-size: calc(25rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .who-we-are{
+        padding: 2rem 7%;
+    }
+    .who-we-are h1{
+        font-size: calc(6rem + 0.5vw);
+    }
+    .who-we-are-content{
+        margin-top: 4rem;
+    }
+    .who-we-are-left h2{
+        font-size: calc(2.9rem + 0.5vw);
+    }
+    .who-we-are-left h2 span{
+        font-size: calc(1.9rem + 0.5vw);
+    }
+    .who-we-are-left .about-btn{
+        border: 1.5px solid #3ebf89;
+        margin-top: 0.8rem;
+        padding: 0.4rem 1.3rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .who-we-are-right p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    #who-we-are-bg-text{
+        font-size: calc(22rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
 }
