@@ -1,0 +1,13 @@
+.error{
+    background-color: #067245;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: calc(5rem + 0.5vw);
+    letter-spacing: 3px;
+}
