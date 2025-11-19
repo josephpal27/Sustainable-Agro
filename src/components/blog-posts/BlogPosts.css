@@ -18,3 +18,68 @@
     text-align: center;
     margin: 0 auto;
 }
+.blog-posts-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.blog-posts-row .blog-post-card{
+    width: 31%;
+    overflow: hidden;
+}
+.blog-posts-row .blog-post-card img{
+    width: 100%;
+    scale: 1;
+    transition: all 0.4s ease;
+}
+.blog-posts-row .blog-post-card:hover img{
+    scale: 1.07;
+}
+.blog-posts-row .blog-post-card .card-desc{
+    padding: 0 1.2rem;
+}
+.blog-posts-row .blog-post-card .desc-content{
+    background-color: #fff;
+    padding: 2.5rem 1rem 1rem 1rem;
+    margin-top: -3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.35s ease;
+}
+.blog-posts-row .blog-post-card:hover .desc-content{
+    margin-top: -5rem;
+}
+.blog-posts-row .blog-post-card .blog-sub-title{
+    color: #3ebf89;
+    font-weight: 500;
+    font-size: calc(0.6rem + 0.5vw);
+}
+.blog-posts-row .blog-post-card .blog-title{
+    color: #000;
+    font-weight: 700;
+    font-size: calc(0.9rem + 0.5vw);
+    display: block;
+}
+.blog-posts-row .blog-post-card p{
+    margin-top: 0.5rem;
+    font-size: calc(0.65rem + 0.5vw);
+}
+.blog-posts-row .blog-post-card button{
+    background-color: #fff;
+    color: #3ebf89;
+    border: 2px solid #3ebf89;
+    border-radius: 5px;
+    margin-top: 1.2rem;
+    padding: 0.45rem 1.4rem;
+    font-weight: 550;
+    font-size: calc(0.65rem + 0.5vw);
+    font-family: "Anek Bangla", sans-serif !important;
+    text-transform: none;
+}
+.blog-posts-row .blog-post-card button:hover{
+    background-color: #3ebf89;
+    color: #fff;
+}
