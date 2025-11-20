@@ -116,5 +116,7 @@ header .header-right .social-icons a:hover{
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    header{
+        display: none;
+    }
 }
