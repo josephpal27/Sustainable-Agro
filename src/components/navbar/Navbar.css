@@ -167,7 +167,7 @@
   }
   .nav-link-btn,
   #navbarDropdown{
-    font-size: calc(0.9rem + 0.5vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
     padding: 0 !important;
     justify-content: left !important;
     width: max-content !important;
@@ -198,8 +198,8 @@
     background-color: transparent !important;
     color: #fff !important;
     padding: 0.35rem 0.5rem !important;
-    font-size: calc(0.8rem + 0.5vw) !important;
-    font-weight: 600;
+    font-size: calc(0.9rem + 0.5vw) !important;
+    font-weight: 550;
     justify-content: left;
     text-transform: capitalize;
   }
