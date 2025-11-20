@@ -48,7 +48,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+  .highlights{
+    padding: 0 1rem 1rem 1rem;
+    margin-top: -1rem;
+  }
 }
 /* Highlights End */
 
