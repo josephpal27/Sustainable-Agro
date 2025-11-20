@@ -16,6 +16,13 @@
     transform: scale(1);
   }
 }
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+  .banner-slider img{
+    height: auto;
+  }
+}
 /* Banner Slider End */
 
 /* Highlights Start */
