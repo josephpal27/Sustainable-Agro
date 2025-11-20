@@ -150,5 +150,39 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .founders-msg{
+        margin-top: 2rem;
+    }
+    .founders-msg .founders-msg-content{
+        padding: 0 1rem 1rem 1rem;
+        margin-top: -5rem;
+    }
+    .founders-msg .founder-msg-left{
+        width: 100%;
+    }
+    .founders-msg .founder-msg-left h3{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .founders-msg .founder-msg-left p{
+        font-size: calc(1.5rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+    .founders-msg .founder-msg-left button{
+        margin-top: 0.2rem;
+        padding: 0.3rem 1rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .founders-msg .founder-msg-right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .founders-msg .founder-msg-right p{
+        margin-top: 1rem;
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .founders-msg .founder-image img{
+        width: 60%;
+        position: relative;
+        margin-top: 8rem;
+    }
 }

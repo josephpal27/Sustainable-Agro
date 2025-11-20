@@ -153,7 +153,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .who-we-are{
-        padding: 0 1rem;
+        padding: 1rem 1rem 0 1rem;
     }
     .who-we-are h1{
         font-size: calc(3rem + 0.5vw);
@@ -172,12 +172,12 @@
         font-size: calc(2rem + 0.5vw);
     }
     .who-we-are-left h2 span{
-        font-size: calc(1.8rem + 0.5vw);
+        font-size: calc(1.9rem + 0.5vw);
     }
     .who-we-are-left .about-btn{
         margin-top: 0.5rem;
-        padding: 0.3rem 1rem;
-        font-size: calc(0.75rem + 0.5vw);
+        padding: 0.2rem 0.9rem;
+        font-size: calc(0.9rem + 0.5vw);
     }
     .who-we-are-left .about-btn:hover{
         background-color: #3ebf89;
@@ -186,16 +186,17 @@
     .who-we-are-center{
         display: flex;
         justify-content: center;
-        margin: 1.5rem 0;
+        margin: 1.5rem 0 2rem 0;
     }
     .who-we-are-center img{
         width: 60%;
     }
     .who-we-are-right p{
-        font-size: calc(0.75rem + 0.5vw);
+        font-size: calc(0.9rem + 0.5vw);
     }
     #who-we-are-bg-text{
         font-size: calc(8rem + 0.5vw);
         letter-spacing: 5px;
+        top: 42%;
     }
 }
