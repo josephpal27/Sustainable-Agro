@@ -131,13 +131,13 @@
 
 @media (max-width: 992px){
   .navbar {
-    padding: 1rem 1rem !important;
+    padding: 1.2rem 1rem !important;
     top: 0;
     border-top: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.485);
   }
   .navbar .nav-brand img{
-    width: 130px;
+    width: 135px;
   }
   .navbar-toggler{
     border: none !important;
