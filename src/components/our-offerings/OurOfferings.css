@@ -180,7 +180,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .our-offerings{
-        padding: 2rem 1rem 2.5rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
     .our-offerings .box{
         width: 100%;
