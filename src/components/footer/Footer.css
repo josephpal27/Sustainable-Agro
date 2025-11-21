@@ -183,5 +183,58 @@ footer .copyright p{
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    footer .footer-content{
+        padding: 2rem 1rem 1.5rem 1rem;
+    }
+    footer .footer-content .foot-box:nth-child(1){
+        width: 100%;
+    }
+    footer .footer-content .foot-box:nth-child(2){
+        width: 100%;
+        margin-bottom: 0.6rem;
+    }
+    footer .footer-content .foot-box:nth-child(3){
+        width: 100%;
+        margin-bottom: 0.6rem;
+    }
+    footer .footer-content .foot-box:nth-child(4){
+        width: 100%;
+    }
+    footer .footer-content .foot-box img{
+        width: 160px;
+    }
+    footer .footer-content .foot-box p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    footer .footer-content .foot-box span{
+        font-size: calc(1.4rem + 0.5vw);
+        margin-bottom: 0.5rem;
+    }
+    footer .footer-content .foot-box a{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-bottom: 0.6rem;
+    }
+    footer .footer-content .foot-box a .icon{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    footer .footer-content .foot-box a .phone-icon{
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    footer .footer-content .foot-box .social-icons{
+        margin-top: 1.6rem;
+    }
+    footer .footer-content .foot-box .social-icons a{
+        width: 35px;
+        height: 35px;
+    }
+    footer .footer-content .foot-box .social-icons .icon{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.7rem 0;
+    }
+    footer .copyright p{
+        font-size: calc(0.75rem + 0.5vw);
+    }
 }
