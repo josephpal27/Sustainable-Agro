@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../../assets/images/logo/logo.png";
+import logo from "../../assets/images/logo/logo.webp";
 import { Button } from "@mui/material";
 import "./Navbar.css";
 

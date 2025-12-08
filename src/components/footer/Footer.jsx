@@ -1,6 +1,6 @@
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import footLogo from '../../assets/images/logo/logo.png';
+import footLogo from '../../assets/images/logo/logo.webp';
 import { IoHomeSharp, IoMailOpen } from "react-icons/io5";
 import { FaPhone, FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
