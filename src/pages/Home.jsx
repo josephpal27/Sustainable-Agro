@@ -38,24 +38,15 @@ const Home = () => {
         </Swiper>
       </section>
 
-      {/* Highlights */}
       <section className="highlights">
-        <HighlightsRow/>
+        <HighlightsRow />
       </section>
 
-      {/* Who We Are */}
-      <WhoWeAre/>
-
-      {/* Founder's Message */}
-      <FoundersMessage/>
-
-      {/* Our Offerings */}
-      <OurOfferings/>
-
-      {/* Blog Posts */}
-      <BlogPosts/>
-
-      <Footer/>
+      <WhoWeAre />
+      <FoundersMessage />
+      <OurOfferings />
+      <BlogPosts />
+      <Footer />
 
     </>
   )
