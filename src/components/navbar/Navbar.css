@@ -74,7 +74,7 @@
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
   .navbar{
     padding: 1.2rem 7% !important;
-    top: 3.23rem;
+    top: 3.15rem;
     border-top: 1.8px solid rgba(255, 255, 255, 0.485);
   }
   .navbar .nav-brand img{
@@ -104,7 +104,7 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
   .navbar{
     padding: 1.1rem 7% !important;
-    top: 2.9rem;
+    top: 2.68rem;
     border-top: 1.6px solid rgba(255, 255, 255, 0.485);
   }
   .navbar .nav-brand img{

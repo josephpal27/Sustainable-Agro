@@ -1,5 +1,6 @@
 .mission-vision{
-    margin-top: 9rem;
+    padding: 9rem 0;
+    overflow: hidden;
 }
 .mission-vision .mv-box{
     display: flex;
