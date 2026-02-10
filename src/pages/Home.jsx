@@ -3,16 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
-
-import homeBanner1 from '/images/banners/home-banner-1.avif';
-import homeBanner2 from '/images/banners/home-banner-2.avif';
-
 import HighlightsRow from '../components/highlights/HighlightsRow';
 import WhoWeAre from '../components/who-we-are/WhoWeAre';
 import FoundersMessage from '../components/founders-message/FoundersMessage';
 import OurOfferings from '../components/our-offerings/OurOfferings';
 import BlogPosts from '../components/blog-posts/BlogPosts';
-
 import Footer from '../components/footer/Footer';
 
 const Home = () => {
@@ -30,10 +25,10 @@ const Home = () => {
           effect="fade"
         >
           <SwiperSlide>
-            <img src={homeBanner1} alt="Banner Slide 1" loading="eager" />
+            <img src="/images/banners/home-banner-1.avif" alt="Banner Slide 1" loading="eager" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={homeBanner2} alt="Banner Slide 2" loading="eager" />
+            <img src="/images/banners/home-banner-2.avif" alt="Banner Slide 2" loading="eager" />
           </SwiperSlide>
         </Swiper>
       </section>

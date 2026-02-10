@@ -1,0 +1,17 @@
+.about-featured{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin-top: -8rem;
+    position: relative;
+}
+.about-featured .featured-box{
+    width: 23%;
+}
+.about-featured .featured-box:nth-child(even){
+    margin-top: 3.5rem;
+}
+.about-featured .featured-box img{
+    width: 100%;
+}

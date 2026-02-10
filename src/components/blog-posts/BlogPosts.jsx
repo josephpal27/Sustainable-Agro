@@ -2,10 +2,6 @@ import { Link } from 'react-router-dom';
 import './BlogPosts.css';
 import { Button } from '@mui/material';
 
-import blogPost1 from '../../assets/images/blogs/1.avif';
-import blogPost2 from '../../assets/images/blogs/2.avif';
-import blogPost3 from '../../assets/images/blogs/3.avif';
-
 const BlogPosts = () => {
 
   let blogPostsContent = [
@@ -13,7 +9,7 @@ const BlogPosts = () => {
       id: 1,
       date: 2,
       month: "Jan",
-      img: blogPost1,
+      img: "images/blogs/1.avif",
       subTitle: "DIET / TIPS & GUIDES",
       title: "Tips for Ripening your Fruit",
       description: "The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.",
@@ -22,7 +18,7 @@ const BlogPosts = () => {
       id: 2,
       date: 5,
       month: "Feb",
-      img: blogPost2,
+      img: "images/blogs/2.avif",
       subTitle: "ORGANIC FOOD / TIPS & GUIDES",
       title: "Health Benefits of a Raw Food",
       description: "The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.",
@@ -31,7 +27,7 @@ const BlogPosts = () => {
       id: 3,
       date: 7,
       month: "Dec",
-      img: blogPost3,
+      img: "images/blogs/3.avif",
       subTitle: "DIET / TIPS & GUIDES",
       title: "Foods you should be eating",
       description: "The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.",
