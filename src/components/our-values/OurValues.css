@@ -1,0 +1,12 @@
+.our-values{
+    margin-top: 9rem;
+}
+.our-values h3{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    text-align: center;
+}
+.our-values h3 span{
+    font-weight: 300;
+}

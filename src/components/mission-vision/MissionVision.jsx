@@ -8,7 +8,7 @@ const MissionVision = () => {
             <section className="mission-vision">
                 <div className="mv-box" id="mission-box">
                     <div className="mv-box-left">
-                        <span>OUR <br /> MISSION</span>
+                        <span>OUR <br /> <b>MISSION</b></span>
                     </div>
                     <div className="mv-box-right">
                         <p>To accelerate the transition to net-zero agriculture by providing scalable technologies and expertise that empower growers to feed the world sustainably.</p>
@@ -21,7 +21,7 @@ const MissionVision = () => {
                         <p>A world where agriculture regenerates the planet, and energy production works in harmony with nature.</p>
                     </div>
                     <div className="mv-box-right">
-                        <span>OUR <br /> VISION</span>
+                        <span>OUR <br /> <b>VISION</b></span>
                     </div>
                     <img src={visionImage} alt="Vision" loading="lazy" />
                 </div>

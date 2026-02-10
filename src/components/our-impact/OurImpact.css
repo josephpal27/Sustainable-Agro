@@ -1,0 +1,54 @@
+.impact{
+    padding: 4rem 7%;
+}
+.impact .impact-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.impact .impact-head h4{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    text-align: center;
+}
+.impact .impact-head h4 span{
+    font-weight: 300;
+}
+.impact .impact-head p{
+    color: #4a4a4a;
+    font-size: calc(0.9rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
+}
+.impact .impact-row{
+    margin-top: 3rem;
+}
+.impact .impact-row .impact-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.impact .impact-row #impact-box-2{
+    flex-direction: row-reverse;
+}
+.impact .impact-row .impact-box .impact-image{
+    width: 50%;
+}
+.impact .impact-row .impact-box .impact-image img{
+    width: 100%;
+}
+.impact .impact-row .impact-box .impact-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.impact .impact-row .impact-box .impact-content span{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

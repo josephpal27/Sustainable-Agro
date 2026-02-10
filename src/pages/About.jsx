@@ -1,6 +1,8 @@
 import AboutBanner from '../components/about-banner/AboutBanner'
 import AboutFeatured from '../components/about-featured/AboutFeatured'
 import MissionVision from '../components/mission-vision/MissionVision'
+import OurImpact from '../components/our-impact/OurImpact'
+import OurValues from '../components/our-values/OurValues'
 
 const About = () => {
     return (
@@ -8,6 +10,8 @@ const About = () => {
             <AboutBanner />
             <AboutFeatured />
             <MissionVision />
+            <OurValues />
+            <OurImpact />
         </>
     )
 }
