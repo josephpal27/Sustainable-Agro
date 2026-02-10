@@ -1,5 +1,5 @@
 .impact{
-    padding: 4rem 7%;
+    padding: 4rem 0;
 }
 .impact .impact-head{
     display: flex;
@@ -22,7 +22,7 @@
     text-align: center;
 }
 .impact .impact-row{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .impact .impact-row .impact-box{
     display: flex;
@@ -46,9 +46,15 @@
     justify-content: center;
 }
 .impact .impact-row .impact-box .impact-content span{
+    color: #3ebf89;
+    font-size: calc(2.2rem + 0.5vw);
+    font-weight: 700;
+}
+.impact .impact-row .impact-box .impact-content p{
+    color: #4a4a4a;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 1rem;
 }
