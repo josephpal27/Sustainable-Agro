@@ -1,0 +1,52 @@
+.mission-vision{
+    margin-top: 9rem;
+}
+.mission-vision .mv-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 7%;
+}
+.mission-vision .mv-box-left{
+    width: 40%;
+    text-align: end;
+}
+.mission-vision .mv-box-right{
+    width: 40%;
+}
+.mission-vision .mv-box span{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    line-height: 1;
+}
+.mission-vision .mv-box p{
+    margin: 0;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    color: #4a4a4a;
+}
+.mission-vision .mv-box img{
+    width: 22%;
+    position: absolute;
+}
+.mission-vision #mission-box img{
+    top: -50%;
+    left: 12%;
+}
+.mission-vision #vision-box img{
+    top: -140%;
+    right: 12%;
+}
+
+.mission-vision h2{
+    font-size: calc(11rem + 0.5vw);
+    font-weight: 600;
+    color: #d4f8ea;
+    text-align: center;
+    letter-spacing: 8px;
+    white-space: nowrap;
+}
