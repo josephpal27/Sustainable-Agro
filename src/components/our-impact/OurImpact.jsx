@@ -1,7 +1,7 @@
 import './OurImpact.css';
-import impact1 from '../../assets/images/impact/1.png';
-import impact2 from '../../assets/images/impact/2.png';
-import impact3 from '../../assets/images/impact/3.png';
+import impact1 from '../../assets/images/impact/1.avif';
+import impact2 from '../../assets/images/impact/2.avif';
+import impact3 from '../../assets/images/impact/3.avif';
 
 let ourImpactData = [
     {

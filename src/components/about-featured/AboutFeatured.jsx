@@ -1,8 +1,8 @@
 import './AboutFeatured.css';
-import featured1 from '../../assets/images/about-featured/1.png';
-import featured2 from '../../assets/images/about-featured/2.png';
-import featured3 from '../../assets/images/about-featured/3.png';
-import featured4 from '../../assets/images/about-featured/4.png';
+import featured1 from '../../assets/images/about-featured/1.avif';
+import featured2 from '../../assets/images/about-featured/2.avif';
+import featured3 from '../../assets/images/about-featured/3.avif';
+import featured4 from '../../assets/images/about-featured/4.avif';
 
 const AboutFeatured = () => {
     return (

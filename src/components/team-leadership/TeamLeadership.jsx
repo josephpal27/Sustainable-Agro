@@ -1,7 +1,7 @@
 import './TeamLeadership.css';
-import team1 from '../../assets/images/team/1.png';
-import team2 from '../../assets/images/team/2.png';
-import team3 from '../../assets/images/team/3.png';
+import team1 from '../../assets/images/team/1.avif';
+import team2 from '../../assets/images/team/2.avif';
+import team3 from '../../assets/images/team/3.avif';
 
 import { FaInstagram, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 

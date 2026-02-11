@@ -1,7 +1,7 @@
 import './Innovation.css';
-import innovation1 from '../../assets/images/innovation/1.png';
-import innovation2 from '../../assets/images/innovation/2.png';
-import innovation3 from '../../assets/images/innovation/3.png';
+import innovation1 from '../../assets/images/innovation/1.avif';
+import innovation2 from '../../assets/images/innovation/2.avif';
+import innovation3 from '../../assets/images/innovation/3.avif';
 
 const Innovation = () => {
     return (
