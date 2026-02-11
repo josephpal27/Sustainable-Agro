@@ -7,7 +7,7 @@ import featured4 from '../../assets/images/about-featured/4.avif';
 const AboutFeatured = () => {
     return (
         <>
-            <section className="about-featured">
+            <section className="about-featured" data-aos="fade">
                 <div className="featured-box">
                     <img src={featured1} alt="Featured 1" loading="lazy" />
                 </div>

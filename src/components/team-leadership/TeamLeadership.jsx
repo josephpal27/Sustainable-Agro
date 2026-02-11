@@ -57,14 +57,14 @@ const TeamLeadership = () => {
         <>
             <section className="team">
                 <div className="team-head">
-                    <h5>TEAM <span>LEADERSHIP</span></h5>
-                    <p>Our leadership team brings together decades of experience in agronomy, renewable energy engineering, and corporate sustainability strategy. We are united by a shared commitment to driving measurable change in the global food system.</p>
+                    <h5 data-aos="fade-up">TEAM <span>LEADERSHIP</span></h5>
+                    <p data-aos="fade">Our leadership team brings together decades of experience in agronomy, renewable energy engineering, and corporate sustainability strategy. We are united by a shared commitment to driving measurable change in the global food system.</p>
                 </div>
                 <div className="team-row">
                     {
                         teamData.map((item, index) => {
                             return(
-                                <div className="team-box" key={index}>
+                                <div className="team-box" key={index} data-aos="fade">
                                     <img src={item.image} alt={item.name} loading="lazy" />
                                     <div className="team-content">
                                         <span>{item.name}</span>

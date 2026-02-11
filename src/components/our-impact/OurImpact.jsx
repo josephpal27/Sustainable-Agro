@@ -29,8 +29,8 @@ const OurImpact = () => {
         <>
             <section className="impact">
                 <div className="impact-head">
-                    <h4>OUR <span>IMPACT</span></h4>
-                    <p>We measure success not just in <br /> yield, but in impact.</p>
+                    <h4 data-aos="fade-up">OUR <span>IMPACT</span></h4>
+                    <p data-aos="fade">We measure success not just in <br /> yield, but in impact.</p>
                 </div>
                 <div className="impact-row">
                     {
@@ -41,8 +41,8 @@ const OurImpact = () => {
                                         <img src={item.image} alt={item.title} loading="lazy" />
                                     </div>
                                     <div className="impact-content">
-                                        <span>{item.title}</span>
-                                        <p>{item.desc}</p>
+                                        <span data-aos="fade-up">{item.title}</span>
+                                        <p data-aos="fade">{item.desc}</p>
                                     </div>
                                 </div>
                             )
