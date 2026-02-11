@@ -1,13 +1,13 @@
 .blog-posts{
     padding: 0 7% 5rem 7%;
 }
-.blog-posts h5{
+.blog-posts h6{
     color: #000;
     font-size: calc(3.5rem + 0.5vw);
     font-weight: 900;
     text-align: center;
 }
-.blog-posts h5 span{
+.blog-posts h6 span{
     font-weight: 200;
 }
 .blog-posts p{
@@ -115,7 +115,7 @@
     .blog-posts{
         padding: 0 7% 4.5rem 7%;
     }
-    .blog-posts h5{
+    .blog-posts h6{
         font-size: calc(3rem + 0.5vw);
     }
     .blog-posts p{
@@ -163,7 +163,7 @@
     .blog-posts{
         padding: 0 7% 4rem 7%;
     }
-    .blog-posts h5{
+    .blog-posts h6{
         font-size: calc(2.7rem + 0.5vw);
     }
     .blog-posts p{
@@ -212,7 +212,7 @@
     .blog-posts{
         padding: 0 1rem 2rem 1rem;
     }
-    .blog-posts h5{
+    .blog-posts h6{
         font-size: calc(2rem + 0.5vw);
     }
     .blog-posts p{

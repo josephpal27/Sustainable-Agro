@@ -37,7 +37,7 @@ const BlogPosts = () => {
   return (
     <>
       <section className="blog-posts">
-        <h5 data-aos="fade-up">BLOG <span>POSTS</span></h5>
+        <h6 data-aos="fade-up">BLOG <span>POSTS</span></h6>
         <p data-aos="fade">Latin words, combined with a handful of model sentence structures, <br /> to generate Lorem Ipsum which looks reasonable.</p>
         <div className="blog-posts-row">
           {

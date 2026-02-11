@@ -5,6 +5,7 @@ import OurOfferings from '../components/our-offerings/OurOfferings';
 import BlogPosts from '../components/blog-posts/BlogPosts';
 import Footer from '../components/footer/Footer';
 import HomeBanner from '../components/home-banner/HomeBanner';
+import Innovation from '../components/innovation/Innovation';
 
 const Home = () => {
 
@@ -15,9 +16,9 @@ const Home = () => {
       <WhoWeAre />
       <FoundersMessage />
       <OurOfferings />
+      <Innovation />
       <BlogPosts />
       <Footer />
-
     </>
   )
 }
