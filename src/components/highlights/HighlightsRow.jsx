@@ -39,21 +39,23 @@ const HighlightsRow = () => {
 
     return (
         <>
-            <div className="highlights-cards-row">
-                {
-                    highlightsContent.map((item, index) => {
-                        return (
-                            <div className="highlight-card" key={index}>
-                                <img src={item.img} alt="Icon" loading="lazy" />
-                                <span>{item.title}</span>
-                                <p>{item.description}</p>
-                                <Link to="/">Read More</Link>
-                            </div>
-                        )
-                    })
-                }
-                <img src={grassImg} alt="Grass" className="grass" loading="lazy" />
-            </div>
+            <section className="highlights">
+                <div className="highlights-cards-row">
+                    {
+                        highlightsContent.map((item, index) => {
+                            return (
+                                <div className="highlight-card" key={index}>
+                                    <img src={item.img} alt="Icon" loading="lazy" />
+                                    <span>{item.title}</span>
+                                    <p>{item.description}</p>
+                                    <Link to="/">Read More</Link>
+                                </div>
+                            )
+                        })
+                    }
+                    <img src={grassImg} alt="Grass" className="grass" loading="lazy" />
+                </div>
+            </section>
         </>
     )
 }

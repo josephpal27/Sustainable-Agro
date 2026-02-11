@@ -1,3 +1,9 @@
+.highlights{
+    padding: 0 7% 1rem 7%;
+    margin-top: -8rem;
+    position: relative;
+    z-index: 10;
+}
 .highlights-cards-row{
     background-color: #fff;
     display: flex;
@@ -61,6 +67,9 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .highlights{
+        margin-top: -7.4rem;
+    }
     .highlights-cards-row{
         padding: 0.9rem 0;
     }
@@ -83,6 +92,9 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
+    .highlights{
+        margin-top: -6.7rem;
+    }
     .highlights-cards-row{
         padding: 0.8rem 0;
     }
@@ -109,6 +121,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
+    .highlights{
+        padding: 0 1rem 1rem 1rem;
+        margin-top: -1rem;
+    }
     .highlights-cards-row{
         padding: 1rem 0;
     }

@@ -1,4 +1,3 @@
-import '../css/Home.css';
 import HighlightsRow from '../components/highlights/HighlightsRow';
 import WhoWeAre from '../components/who-we-are/WhoWeAre';
 import FoundersMessage from '../components/founders-message/FoundersMessage';
@@ -12,10 +11,7 @@ const Home = () => {
   return (
     <>
       <HomeBanner />
-      <section className="highlights">
-        <HighlightsRow />
-      </section>
-
+      <HighlightsRow />
       <WhoWeAre />
       <FoundersMessage />
       <OurOfferings />
