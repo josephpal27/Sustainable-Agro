@@ -1,8 +1,8 @@
 import './OurValues.css';
-import value1 from '../../assets/images/values/1.png';
-import value2 from '../../assets/images/values/2.png';
-import value3 from '../../assets/images/values/3.png';
-import value4 from '../../assets/images/values/4.png';
+import value1 from '../../assets/images/values/1.avif';
+import value2 from '../../assets/images/values/2.avif';
+import value3 from '../../assets/images/values/3.avif';
+import value4 from '../../assets/images/values/4.avif';
 
 let valuesData = [
     {
