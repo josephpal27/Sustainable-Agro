@@ -46,7 +46,7 @@ const MyNavbar = () => {
             </Nav.Link>
 
             {/* Bootstrap Dropdown */}
-            <NavDropdown title="Our Solutions" id="navbarDropdown">
+            {/* <NavDropdown title="Our Solutions" id="navbarDropdown">
               <NavDropdown.Item as={NavLink} to="/tandhan-power" onClick={handleClose}>
                 <Button className="dropdown-item-btn">Tandhan Power</Button>
               </NavDropdown.Item>
@@ -56,8 +56,11 @@ const MyNavbar = () => {
               <NavDropdown.Item as={NavLink} to="/riz-prime" onClick={handleClose}>
                 <Button className="dropdown-item-btn">Riz Prime</Button>
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
 
+            <Nav.Link as={NavLink} to="/solutions" onClick={handleClose}>
+              <Button className="nav-link-btn">Our Solutions</Button>
+            </Nav.Link>
             <Nav.Link as={NavLink} to="/blogs" onClick={handleClose}>
               <Button className="nav-link-btn">Our Blogs</Button>
             </Nav.Link>

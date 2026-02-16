@@ -1,0 +1,63 @@
+.renewable-energy{
+    padding: 4rem 7%;
+}
+.renewable-energy-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.renewable-energy-head h2{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    text-align: center;
+}
+.renewable-energy-head h2 span{
+    font-weight: 300;
+}
+.renewable-energy-head p{
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
+    width: 60%;
+}
+.renewable-energy .renewable-energy-row{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.renewable-energy .renewable-energy-box{
+    width: 30%;
+    position: relative;
+}
+.renewable-energy .renewable-energy-box img{
+    width: 100%;
+}
+.renewable-energy .renewable-energy-box .renewable-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 1.5rem;
+    color: #fff;
+    background: linear-gradient(to bottom, #00000000 40%, #0000008d 90%);
+}
+.renewable-energy .renewable-energy-box .renewable-content span{
+    font-size: calc(2rem + 0.5vw);
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.1;
+}
+.renewable-energy .renewable-energy-box .renewable-content p{
+    font-size: calc(0.7rem + 0.5vw);
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}

@@ -16,7 +16,6 @@
     justify-content: end;
     padding: 4rem 7%;
     color: #fff;
-    /* background: linear-gradient(to bottom, #00000000 10%, #0000008d 60%); */
 }
 .solutions-banner .banner-content h1{
     font-size: calc(3.5rem + 0.5vw);
