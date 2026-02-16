@@ -46,7 +46,7 @@ const MyNavbar = () => {
             </Nav.Link>
 
             {/* Bootstrap Dropdown */}
-            <NavDropdown title="Brands" id="navbarDropdown">
+            <NavDropdown title="Our Solutions" id="navbarDropdown">
               <NavDropdown.Item as={NavLink} to="/tandhan-power" onClick={handleClose}>
                 <Button className="dropdown-item-btn">Tandhan Power</Button>
               </NavDropdown.Item>
@@ -58,11 +58,14 @@ const MyNavbar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={NavLink} to="/media" onClick={handleClose}>
-              <Button className="nav-link-btn">Media</Button>
-            </Nav.Link>
             <Nav.Link as={NavLink} to="/blogs" onClick={handleClose}>
-              <Button className="nav-link-btn">Blogs</Button>
+              <Button className="nav-link-btn">Our Blogs</Button>
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/esg-and-impact" onClick={handleClose}>
+              <Button className="nav-link-btn">ESG & Impact</Button>
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/careers" onClick={handleClose}>
+              <Button className="nav-link-btn">Careers</Button>
             </Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={handleClose}>
               <Button className="nav-link-btn">Contact</Button>
