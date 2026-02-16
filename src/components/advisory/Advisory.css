@@ -1,0 +1,32 @@
+.advisory{
+    position: relative;
+    margin-top: 1rem;
+}
+.advisory img{
+    width: 100%;
+}
+.advisory .advisory-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 7%;
+    color: #fff;
+}
+.advisory .advisory-content h3{
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+}
+.advisory .advisory-content h3 span{
+    font-weight: 400;
+}
+.advisory .advisory-content p{
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    width: 55%;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
