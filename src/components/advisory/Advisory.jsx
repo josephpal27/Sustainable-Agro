@@ -1,14 +1,14 @@
 import './Advisory.css';
-import advisoryImage from '../../assets/images/advisory-bg.png';
+import advisoryBg from '../../assets/images/advisory-bg.avif';
 
 const Advisory = () => {
     return (
         <>
             <section className="advisory">
-                <img src={advisoryImage} alt="Advisory Background" loading="lazy" />
+                <img src={advisoryBg} alt="Advisory Background" loading="lazy" />
                 <div className="advisory-content">
-                    <h3><span>ADVISORY</span> <br /> & CONSULTING</h3>
-                    <p>Strategic guidance for agribusinesses, investors, and policymakers. We offer feasibility studies for greenfield projects, sustainability audits for existing operations, and roadmap development for carbon neutrality certification.</p>
+                    <h3 data-aos="fade-up"><span>ADVISORY</span> <br /> & CONSULTING</h3>
+                    <p data-aos="fade">Strategic guidance for agribusinesses, investors, and policymakers. We offer feasibility studies for greenfield projects, sustainability audits for existing operations, and roadmap development for carbon neutrality certification.</p>
                 </div>
             </section>
         </>

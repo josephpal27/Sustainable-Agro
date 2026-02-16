@@ -1,7 +1,7 @@
 import './RenewableEnergy.css';
-import renewable1 from '../../assets/images/renewable-energy/1.png';
-import renewable2 from '../../assets/images/renewable-energy/2.png';
-import renewable3 from '../../assets/images/renewable-energy/3.png';
+import renewable1 from '../../assets/images/renewable-energy/1.avif';
+import renewable2 from '../../assets/images/renewable-energy/2.avif';
+import renewable3 from '../../assets/images/renewable-energy/3.avif';
 
 let renewableEnergyData = [
     {
@@ -29,14 +29,14 @@ const RenewableEnergy = () => {
         <>
             <section className="renewable-energy">
                 <div className="renewable-energy-head">
-                    <h2>RENEWABLE ENERGY <br /> <span>INTEGRATION</span></h2>
-                    <p>Maximize the utility of your land with our energy solutions. <br /> We specialize in:</p>
+                    <h2 data-aos="fade-up">RENEWABLE ENERGY <br /> <span>INTEGRATION</span></h2>
+                    <p data-aos="fade">Maximize the utility of your land with our energy solutions. <br /> We specialize in:</p>
                 </div>
                 <div className="renewable-energy-row">
                     {
                         renewableEnergyData.map((item, index) => {
                             return(
-                                <div className="renewable-energy-box" key={index} id={`renewable-energy-box-${item.id}`}>
+                                <div className="renewable-energy-box" key={index} id={`renewable-energy-box-${item.id}`} data-aos="fade">
                                     <img src={item.image} alt={item.title} />
                                     <div className="renewable-content">
                                         <span dangerouslySetInnerHTML={{__html: item.title}}/>

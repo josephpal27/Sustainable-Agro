@@ -17,8 +17,10 @@ const Footer = () => {
                 <span>Quick Links</span>
                 <Link to="/">Home</Link>
                 <Link to="/about">About Us</Link>
-                <Link to="/media">Media</Link>
-                <Link to="/blogs">Blogs</Link>
+                <Link to="/solutions">Our Solutions</Link>
+                <Link to="/blogs">Our Blogs</Link>
+                <Link to="/esg-and-impact">ESG & Impact</Link>
+                <Link to="/careers">Careers</Link>
                 <Link to="/contact">Contact</Link>
             </div>
             <div className="foot-box">
