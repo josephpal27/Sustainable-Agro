@@ -10,6 +10,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Solutions from './pages/Solutions.jsx';
 import Error from './pages/Error.jsx';
+import Blogs from './pages/Blogs.jsx';
 
 let routers = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ let routers = createBrowserRouter([
       {path: "/", element: <Home />},
       {path: "/about", element: <About />},
       {path: "/solutions", element: <Solutions />},
+      {path: "/blogs", element: <Blogs />},
       {path: "*", element: <Error />},
     ]
   }
