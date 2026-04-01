@@ -1,5 +1,5 @@
 import './BlogContentPillars.css';
-import contentPillars from '../../assets/images/tracktor.png';
+import contentPillars from '../../assets/images/tracktor.avif';
 
 const BlogContentPillars = () => {
     return (
