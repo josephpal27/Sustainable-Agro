@@ -46,15 +46,15 @@ const BlogListing = () => {
         <>
             <section className="blog-listing">
                 <div className="blog-listing-head">
-                    <h3>ARTICLE <span>TOPICS</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus excepturi ex quos placeat recusandae, tempora inventore voluptate sint voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3 data-aos="fade-up">ARTICLE <span>TOPICS</span></h3>
+                    <p data-aos="fade">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus excepturi ex quos placeat recusandae, tempora inventore voluptate sint voluptates Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 {/* Row */}
                 <div className="blogs-row">
                     {
                         blogsData.map((item, index) => {
                             return (
-                                <div className="blog-card" key={index}>
+                                <div className="blog-card" key={index} data-aos="fade" data-aos-once="true">
                                     <div className="card-image">
                                         <img src={item.image} alt={`Blog ${item.id}`} loading="lazy" />
                                     </div>
