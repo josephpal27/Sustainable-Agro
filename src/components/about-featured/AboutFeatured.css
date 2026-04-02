@@ -15,3 +15,27 @@
 .about-featured .featured-box img{
     width: 100%;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .about-featured{
+        margin-top: -7rem;
+    }
+    .about-featured .featured-box:nth-child(even){
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .about-featured{
+        margin-top: -6.5rem;
+    }
+    .about-featured .featured-box:nth-child(even){
+        margin-top: 2.5rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
