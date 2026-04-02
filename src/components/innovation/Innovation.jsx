@@ -7,7 +7,7 @@ const Innovation = () => {
     return (
         <>
             <section className="innovation">
-                <h5 data-aos="fade-up">INNOVATION <span>IN ACTION</span></h5>
+                <h5 data-aos="fade-up">INNOVATION <br /> <span>IN ACTION</span></h5>
                 <div className="innovation-row innovation-top-row">
                     <div className="innovation-box text-box" data-aos="fade">
                         <span>Agrivoltaics</span>
