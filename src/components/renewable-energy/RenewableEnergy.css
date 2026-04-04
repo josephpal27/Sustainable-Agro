@@ -61,3 +61,59 @@
     margin-bottom: 0;
     margin-top: 1.5rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .renewable-energy{
+        padding: 3.5rem 7%;
+    }
+    .renewable-energy-head h2{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .renewable-energy-head p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .renewable-energy .renewable-energy-row{
+        margin-top: 1.8rem;
+    }
+    .renewable-energy .renewable-energy-box .renewable-content{
+        padding: 1.3rem;
+    }
+    .renewable-energy .renewable-energy-box .renewable-content span{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .renewable-energy .renewable-energy-box .renewable-content p{
+        font-size: calc(0.65rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .renewable-energy{
+        padding: 3rem 7%;
+    }
+    .renewable-energy-head h2{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .renewable-energy-head p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .renewable-energy .renewable-energy-row{
+        margin-top: 1.5rem;
+    }
+    .renewable-energy .renewable-energy-box .renewable-content{
+        padding: 1rem;
+    }
+    .renewable-energy .renewable-energy-box .renewable-content span{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .renewable-energy .renewable-energy-box .renewable-content p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 1rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
+}
