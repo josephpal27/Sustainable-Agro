@@ -54,7 +54,7 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    /* .blogs-banner img{
+    .blogs-banner img{
         height: auto;
     }
     .blogs-banner .banner-content{
@@ -74,5 +74,5 @@
         font-size: calc(0.9rem + 0.5vw);
         text-align: start;
         width: 100%;
-    } */
+    }
 }
