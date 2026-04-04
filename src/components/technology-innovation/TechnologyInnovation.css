@@ -10,7 +10,7 @@
 .technology .technology-head h4{
     width: 42%;
     color: #3ebf89;
-    font-size: calc(4rem + 0.5vw);
+    font-size: calc(3.5rem + 0.5vw);
     font-weight: 900;
 }
 .technology .technology-head h4 span{
@@ -60,4 +60,54 @@
 }
 .technology-images-grid img:hover{
     scale: 1.05;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .technology{
+        padding: 3.5rem 7%;
+    }
+    .technology .technology-head h4{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .technology .technology-head h4 span{
+        font-size: calc(2.2rem + 0.5vw);
+    }
+    .technology .technology-head p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .technology-images-grid{
+        margin-top: 1.7rem;
+        gap: 0.9rem;
+    }
+    .technology-images-grid .technology-center{
+        gap: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .technology{
+        padding: 3rem 7%;
+    }
+    .technology .technology-head h4{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .technology .technology-head h4 span{
+        font-size: calc(1.9rem + 0.5vw);
+    }
+    .technology .technology-head p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .technology-images-grid{
+        margin-top: 1.5rem;
+        gap: 0.8rem;
+    }
+    .technology-images-grid .technology-center{
+        gap: 0.8rem;
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    
 }
