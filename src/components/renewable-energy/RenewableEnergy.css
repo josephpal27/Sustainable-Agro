@@ -115,5 +115,34 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .renewable-energy{
+        padding: 1rem 1rem;
+    }
+    .renewable-energy-head h2{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .renewable-energy-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+    }
+    .renewable-energy-head p br{
+        display: none;
+    }
+    .renewable-energy .renewable-energy-row{
+        margin-top: 0.5rem;
+    }
+    .renewable-energy .renewable-energy-box{
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    .renewable-energy .renewable-energy-box .renewable-content{
+        padding: 1.5rem;
+    }
+    .renewable-energy .renewable-energy-box .renewable-content span{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .renewable-energy .renewable-energy-box .renewable-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1rem;
+    }
 }

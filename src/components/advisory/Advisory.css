@@ -66,5 +66,21 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .advisory{
+        margin-top: 0;
+    }
+    .advisory .advisory-content{
+        padding: 1rem 1rem;
+        position: relative;
+    }
+    .advisory .advisory-content h3{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: -7rem;
+    }
+    .advisory .advisory-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 1.2rem;
+        width: 100%;
+        color: #4a4a4a;
+    }
 }

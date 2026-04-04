@@ -109,5 +109,25 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .technology{
+        padding: 0 1rem;
+    }
+    .technology .technology-head h4{
+        font-size: calc(2rem + 0.5vw);
+        width: 100%;
+    }
+    .technology .technology-head h4 span{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .technology .technology-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+    }
+    .technology-images-grid{
+        margin-top: 0.5rem;
+        gap: 0.2rem;
+    }
+    .technology-images-grid .technology-center{
+        gap: 0.2rem;
+    }
 }
