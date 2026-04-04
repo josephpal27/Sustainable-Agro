@@ -98,5 +98,27 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .our-values{
+        padding: 0 0 0.5rem 0;
+    }
+    .our-values h3{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .our-values .our-values-row{
+        margin-top: 1rem;
+    }
+    .our-values .our-values-row .value-box{
+        width: 50%;
+        position: relative;
+    }
+    .our-values .our-values-row .value-content{
+        padding: 1rem;
+    }
+    .our-values .our-values-row .value-content span{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .our-values .our-values-row .value-content p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.4rem;
+    }
 }

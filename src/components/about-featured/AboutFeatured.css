@@ -38,6 +38,7 @@
 /* Mobile screen */
 @media screen and (max-width: 768px) {
     .about-featured{
+        padding: 0 1rem;
         margin-top: 0.5rem;
     }
     .about-featured .featured-box:nth-child(even){

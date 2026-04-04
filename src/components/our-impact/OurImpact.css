@@ -106,5 +106,32 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .impact{
+        padding: 2rem 0 1rem 0;
+    }
+    .impact .impact-head h4{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .impact .impact-head p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .impact .impact-row{
+        margin-top: 0.5rem;
+    }
+    .impact .impact-row .impact-box .impact-image{
+        width: 100%;
+    }
+    .impact .impact-row .impact-box .impact-content{
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+    .impact .impact-row .impact-box .impact-content span{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .impact .impact-row .impact-box .impact-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.2rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
 }

@@ -98,5 +98,38 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .mission-vision{
+        padding: 2.5rem 0;
+    }
+    .mission-vision .mv-box{
+        gap: 0;
+        padding: 0 1rem;
+    }
+    .mission-vision .mv-box-left{
+        width: 100%;
+        text-align: start;
+    }
+    .mission-vision .mv-box-right{
+        width: 100%;
+    }
+    .mission-vision .mv-box span{
+        font-size: calc(2rem + 0.5vw);
+        margin-bottom: 0.5rem;
+        display: block;
+    }
+    .mission-vision .mv-box p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .mission-vision .mv-box img{
+        width: 35%;
+        position: relative;
+    }
+    .mission-vision h2{
+        font-size: calc(2.5rem + 0.5vw);
+        letter-spacing: 2px;
+    }
+    .mission-vision #vision-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
