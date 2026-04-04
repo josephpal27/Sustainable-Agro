@@ -37,5 +37,10 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .about-featured{
+        margin-top: 0.5rem;
+    }
+    .about-featured .featured-box:nth-child(even){
+        margin-top: 1.5rem;
+    }
 }

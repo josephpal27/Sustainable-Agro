@@ -58,5 +58,25 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    
+    .about-banner img{
+        height: auto;
+    }
+    .about-banner .banner-content{
+        position: relative;
+        align-items: start;
+        padding: 0 1rem;
+        color: #4a4a4a;
+        background: #fff;
+    }
+    .about-banner .banner-content h1{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: -3rem;
+        color: #fff;
+    }
+    .about-banner .banner-content p{
+        margin-top: 1rem;
+        font-size: calc(0.9rem + 0.5vw);
+        text-align: start;
+        width: 100%;
+    }
 }
