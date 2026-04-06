@@ -1,5 +1,6 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa6';
 import './ContactDetails.css';
+import ContactForm from '../contact-form/ContactForm';
 
 const ContactDetails = () => {
     return (
@@ -32,7 +33,7 @@ const ContactDetails = () => {
                     </div>
                 </div>
                 <div className="contact-right">
-
+                    <ContactForm />
                 </div>
             </section>
         </>
