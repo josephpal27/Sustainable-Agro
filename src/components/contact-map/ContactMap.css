@@ -1,6 +1,18 @@
 .contact-map{
     height: 60vh;
     overflow: hidden;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .contact-map{
+        margin: 0.9rem 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .contact-map{
+        margin: 0.8rem 0;
+    }
 }
