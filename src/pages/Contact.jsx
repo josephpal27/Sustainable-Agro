@@ -1,8 +1,9 @@
+import ContactBanner from "../components/contact-banner/ContactBanner"
 
 const Contact = () => {
     return (
         <>
-            
+            <ContactBanner />
         </>
     )
 }
