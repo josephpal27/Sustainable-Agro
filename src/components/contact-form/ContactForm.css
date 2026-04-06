@@ -115,3 +115,39 @@
         padding: 0.65rem 2.1rem;
     }
 }
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+    .contact-form{
+        margin-top: 1.5rem;
+        padding: 1rem 1.2rem;
+        border-radius: 20px;
+    }
+    .contact-form span{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .contact-form p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .contact-form p br{
+        display: none;
+    }
+    .contact-form form{
+        margin-top: 1.5rem;
+    }
+    .contact-form form label{
+        font-size: 1.2rem;
+    }
+    .contact-form form input,
+    .contact-form form textarea{
+        font-size: 1.1rem;
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .contact-form form button{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.6rem 1.5rem;
+    }
+}
