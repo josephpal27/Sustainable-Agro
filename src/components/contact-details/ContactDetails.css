@@ -1,0 +1,74 @@
+.contact-details{
+    padding: 4rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-left{
+    width: 50%;
+}
+.contact-left h2{
+    font-size: calc(2.7rem + 0.5vw);
+    font-weight: 700;
+}
+.contact-left h2 span{
+    color: #3ebf89;
+}
+.contact-left p{
+    margin-top: 1rem;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+}
+.contact-details-boxes-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.contact-details-boxes-row .details-box{
+    width: 48%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #b1b1b1;
+    margin-bottom: 1.7rem;
+}
+.contact-details-boxes-row .details-box span{
+    color: #3ebf89;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 1rem;
+}
+.contact-details-boxes-row .details-box a{
+    color: #313131;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+}
+.contact-details-boxes-row .details-box a:hover{
+    color: #3ebf89;
+}
+.contact-details-boxes-row .details-box .social-icons{
+    display: flex;
+    gap: 1rem;
+}
+.contact-details-boxes-row .details-box .social-icons a{
+    background-color: #3ebf89;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(0.7rem + 0.5vw);
+    transition: all 0.2s ease;
+}
+.contact-details-boxes-row .details-box .social-icons a:hover{
+    background-color: #128454;
+}
+
+.contact-right{
+    width: 45%;
+}
