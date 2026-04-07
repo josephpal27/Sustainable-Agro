@@ -6,9 +6,6 @@ import offeringImg1 from '../../assets/images/offerings/1.avif';
 import offeringImg2 from '../../assets/images/offerings/2.avif';
 import offeringImg3 from '../../assets/images/offerings/3.avif';
 import offeringImg4 from '../../assets/images/offerings/4.avif';
-import offeringImg5 from '../../assets/images/offerings/5.avif';
-import offeringImg6 from '../../assets/images/offerings/6.avif';
-import offeringImg7 from '../../assets/images/offerings/7.avif';
 
 const OurOfferings = () => {
     return (
@@ -16,60 +13,43 @@ const OurOfferings = () => {
             <section className="our-offerings">
                 <div className="box large-box">
                     <h4 data-aos="fade-up">OUR <span>OFFERINGS</span></h4>
-                    <p data-aos="fade">Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc.</p>
-                    <Link to="/products" data-aos="fade"><Button>View All Products</Button></Link>
+                    <p data-aos="fade">We support cultivation and supply chains with targeted interventions—from advisory and operational planning to execution support—tailored to specific crop requirements and energy integration opportunities.</p>
+                    <Link to="/solutions" data-aos="fade"><Button>View All Products</Button></Link>
                 </div>
                 <div className="box">
                     <img src={offeringImg1} alt="Product" loading="lazy" />
                     <div className="layer">
                         <span>Rice</span>
-                        <Link to="/"><Button>View Product</Button></Link>
+                        <p>Implementation of water-saving technologies and methane-reduction practices.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>
                 <div className="box">
                     <img src={offeringImg2} alt="Product" loading="lazy" />
                     <div className="layer">
                         <span>Cashews</span>
-                        <Link to="/"><Button>View Product</Button></Link>
+                        <p>Processing efficiency improvements and biomass energy utilization.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>
                 <div className="box">
                     <img src={offeringImg3} alt="Product" loading="lazy" />
                     <div className="layer">
                         <span>Cotton</span>
-                        <Link to="/"><Button>View Product</Button></Link>
+                        <p>Regenerative soil practices and resource-efficient crop management.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>
                 <div className="box">
                     <img src={offeringImg4} alt="Product" loading="lazy" />
                     <div className="layer">
                         <span>Cocoa</span>
-                        <Link to="/"><Button>View Product</Button></Link>
+                        <p>Agroforestry systems that enhance shade, biodiversity, and carbon sequestration.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>
                 <div className="box large-box" id="large-text-box">
-                    <span data-aos="fade">LOREM IPSUM <br /> DOLAR SIT</span>
-                </div>
-                <div className="box">
-                    <img src={offeringImg5} alt="Product" loading="lazy" />
-                    <div className="layer">
-                        <span>Rice</span>
-                        <Link to="/"><Button>View Product</Button></Link>
-                    </div>
-                </div>
-                <div className="box large-box">
-                    <img src={offeringImg7} alt="Product" loading="lazy" />
-                    <div className="layer">
-                        <span>Shade Nets</span>
-                        <Link to="/"><Button>View Product</Button></Link>
-                    </div>
-                </div>
-                <div className="box">
-                    <img src={offeringImg6} alt="Product" loading="lazy" />
-                    <div className="layer">
-                        <span>Cotton</span>
-                        <Link to="/"><Button>View Product</Button></Link>
-                    </div>
+                    <span data-aos="fade">Strategic Crop Programs</span>
                 </div>
             </section>
         </>

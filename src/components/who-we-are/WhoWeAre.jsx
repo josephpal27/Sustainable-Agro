@@ -18,8 +18,8 @@ const WhoWeAre = () => {
                         <img src={aboutImg} alt="Rice" loading="lazy" />
                     </div>
                     <div className="who-we-are-right" data-aos="fade-right">
-                        <p>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-                        <p>The generated Lorem Ipsum is therefore always free from repetition injected humour, or non-characteristic words etc. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classi</p>
+                        <p>Sustainable Agro is a pioneer in scalable, evidence-based solutions for the modern agricultural landscape.</p>
+                        <p>We combine deep agronomic expertise with renewable energy technologies to help growers, agribusinesses, and communities reduce their carbon footprint while increasing profitability.</p>
                     </div>
                     <span id="who-we-are-bg-text" data-aos="fade" data-aos-once="true">AGRO</span>
                 </div>

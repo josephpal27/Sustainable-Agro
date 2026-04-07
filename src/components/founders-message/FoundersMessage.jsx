@@ -15,7 +15,7 @@ const FoundersMessage = () => {
                 <div className="founders-msg-content">
                     <div className="founder-msg-left" data-aos="fade">
                         <h3>Founder's <span>Message</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nesciunt.</p>
+                        <p>A Vision for <br /> Resilient Growth</p>
                         <Link to="/about"><Button>Read More</Button></Link>
                     </div>
                     <div className="founder-msg-right">
@@ -25,7 +25,7 @@ const FoundersMessage = () => {
                                 <img src={founderImg2} alt="Founder" loading="lazy" />
                             </div>
                             <div className="card-desc">
-                                <p>Lorem, ipsum dolor sit amet adipis elit. Non quam omnis est ducimus. Lorem, adipis amet ipsum dolor. Lorem, ipsum dolor sit amet adipis elit. Non quam omnis est ducimus. Lorem, adipis.</p>
+                                <p>"Sustainable Agro was founded on a singular conviction: that the future of agriculture lies in its ability to regenerate the earth rather than deplete it. We are committed to making sustainable practices practical, measurable, and economically viable." <br /> <span>— Founder, Sustainable Agro</span></p>
                             </div>
                         </div>
                     </div>

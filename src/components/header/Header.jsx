@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <header>
         <div className="header-left">
-            <span>Providing Exceptional Landscaping</span>
+            <span>Powering the Future of Agriculture</span>
         </div>
         <div className="header-right">
             <div className="head-box">

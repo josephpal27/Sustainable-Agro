@@ -80,6 +80,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    padding: 1rem;
 }
 .our-offerings .large-box:hover .layer{
     width: 97.2%;
@@ -92,7 +93,16 @@
     opacity: 0;
     transition: opacity 0.2s ease;
 }
-.our-offerings .box:hover .layer span{
+.our-offerings .box .layer p{
+    color: #fff;
+    font-size: calc(0.5rem + 0.5vw);
+    font-weight: 500;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.our-offerings .box:hover .layer span,
+.our-offerings .box:hover .layer p{
     opacity: 1;
 }
 .our-offerings .box .layer button{
@@ -135,8 +145,14 @@
     .our-offerings #large-text-box span{
         font-size: calc(3rem + 0.5vw);
     }
+    .our-offerings .box:hover .layer{
+        padding: 0.9rem;
+    }
     .our-offerings .box .layer span{
         font-size: calc(2rem + 0.5vw);
+    }
+    .our-offerings .box .layer p{
+        font-size: calc(0.45rem + 0.5vw);
     }
     .our-offerings .box .layer button{
         margin-top: 0.9rem;
@@ -165,10 +181,16 @@
         font-size: calc(0.6rem + 0.5vw);
     }
     .our-offerings #large-text-box span{
-        font-size: calc(2.5rem + 0.5vw);
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .our-offerings .box:hover .layer{
+        padding: 0.8rem;
     }
     .our-offerings .box .layer span{
         font-size: calc(1.8rem + 0.5vw);
+    }
+    .our-offerings .box .layer p{
+        font-size: calc(0.4rem + 0.5vw);
     }
     .our-offerings .box .layer button{
         margin-top: 0.8rem;
@@ -213,6 +235,9 @@
     }
     .our-offerings .box .layer span{
         font-size: calc(2rem + 0.5vw);
+    }
+    .our-offerings .box .layer p{
+        font-size: calc(0.9rem + 0.5vw);
     }
     .our-offerings .box .layer button{
         margin-top: 0.8rem;

@@ -24,7 +24,7 @@
 }
 
 .who-we-are-content{
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +98,7 @@
         font-size: calc(6.5rem + 0.5vw);
     }
     .who-we-are-content{
-        margin-top: 4.5rem;
+        margin-top: 3.5rem;
     }
     .who-we-are-left h2{
         font-size: calc(3.2rem + 0.5vw);
@@ -128,7 +128,7 @@
         font-size: calc(6rem + 0.5vw);
     }
     .who-we-are-content{
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     .who-we-are-left h2{
         font-size: calc(2.9rem + 0.5vw);
@@ -186,7 +186,7 @@
     .who-we-are-center{
         display: flex;
         justify-content: center;
-        margin: 1.5rem 0 2rem 0;
+        margin: 2.2rem 0 2rem 0;
     }
     .who-we-are-center img{
         width: 60%;

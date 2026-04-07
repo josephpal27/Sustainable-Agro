@@ -42,7 +42,7 @@
     background-color: #28a370;
 }
 .founders-msg .founder-msg-right{
-    width: 25%;
+    width: 28%;
 }
 .founders-msg .founder-msg-right .founder-card{
     background-color: #fff;
@@ -67,11 +67,17 @@
     border-radius: 9px;
 }
 .founders-msg .founder-msg-right p{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 0;
     color: #4a4a4a;
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: calc(0.65rem + 0.5vw);
     font-weight: 500;
+}
+.founders-msg .founder-msg-right p span{
+    margin-top: 0.5rem;
+    display: block;
+    text-align: end;
+    font-size: calc(0.5rem + 0.5vw);
 }
 .founders-msg .founder-image img{
     width: 30%;
@@ -111,8 +117,12 @@
         height: 22px;
     }
     .founders-msg .founder-msg-right p{
-        margin-top: 1.4rem;
-        font-size: calc(0.63rem + 0.5vw);
+        margin-top: 0.9rem;
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .founders-msg .founder-msg-right p span{
+        margin-top: 0.4rem;
+        font-size: calc(0.45rem + 0.5vw);
     }
 }
 
@@ -142,9 +152,13 @@
         width: 20px;
         height: 20px;
     }
-    .founders-msg .founder-msg-right p{
-        margin-top: 1.3rem;
-        font-size: calc(0.6rem + 0.5vw);
+     .founders-msg .founder-msg-right p{
+        margin-top: 0.8rem;
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .founders-msg .founder-msg-right p span{
+        margin-top: 0.3rem;
+        font-size: calc(0.4rem + 0.5vw);
     }
 }
 
@@ -179,6 +193,10 @@
     .founders-msg .founder-msg-right p{
         margin-top: 1rem;
         font-size: calc(0.9rem + 0.5vw);
+    }
+    .founders-msg .founder-msg-right p span{
+        margin-top: 0.4rem;
+        font-size: calc(0.7rem + 0.5vw);
     }
     .founders-msg .founder-image img{
         width: 60%;
