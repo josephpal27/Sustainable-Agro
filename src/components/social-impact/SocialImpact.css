@@ -1,0 +1,46 @@
+.social-impact{
+    margin-top: 4.5rem;
+}
+.social-impact-content{
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social-impact-content h3{
+    width: 25%;
+    color: #3ebf89;
+    font-size: calc(4rem + 0.5vw);
+    font-weight: 900;
+    line-height: 1.1;
+}
+.social-impact-content h3 span{
+    font-weight: 300;
+}
+.social-impact-content p{
+    width: 75%;
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+}
+.social-impact-images{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.social-impact-images .img-box{
+    width: 33.33%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.618) 0px 8px 16px -8px;
+    overflow: hidden;
+}
+.social-impact-images .img-box img{
+    width: 100%;
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+}
+.social-impact-images .img-box img:hover{
+    scale: 1.03;
+    filter: grayscale(0);
+}

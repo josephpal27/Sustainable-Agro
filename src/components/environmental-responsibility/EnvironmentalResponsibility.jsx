@@ -1,5 +1,5 @@
 import './EnvironmentalResponsibility.css';
-import environmentalImage from '../../assets/images/environmental.png';
+import environmentalImage from '../../assets/images/environmental.avif';
 
 const EnvironmentalResponsibility = () => {
     return (
