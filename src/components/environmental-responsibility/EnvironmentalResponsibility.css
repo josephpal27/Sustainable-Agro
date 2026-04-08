@@ -1,0 +1,55 @@
+.environmental{
+    padding: 4rem 7% 0 7%;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+.environmental-image{
+    width: 40%;
+    position: relative;
+    z-index: 10;
+}
+.environmental-image img{
+    width: 100%;
+}
+.environmental-content{
+    width: 55%;
+    position: relative;
+    z-index: 10;
+}
+.environmental-content h2{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+.environmental-content h2 span{
+    font-weight: 300;
+}
+.environmental-content p{
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.environmental .bg-label{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 5rem;
+}
+.environmental .bg-label span{
+    color: #3ebf894d;
+    font-size: calc(7rem + 0.5vw);
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1;
+}
+.environmental .bg-label span:last-child{
+    text-align: end;
+}
