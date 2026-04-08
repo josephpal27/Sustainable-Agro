@@ -1,0 +1,38 @@
+.governance{
+    padding: 4rem 7%;
+}
+.governance h4{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+    text-align: center;
+}
+.governance h4 span{
+    font-weight: 300;
+}
+.governance-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2.2rem;
+}
+.governance-image{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+.governance-image img:first-child{
+    width: 40%;
+}
+.governance-image img:last-child{
+    width: 57%;
+}
+.governance-content{
+    width: 50%;
+}
+.governance-content p{
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+}

@@ -1,7 +1,7 @@
 import './SocialImpact.css';
-import socialImpact1 from '../../assets/images/social-impact/1.png';
-import socialImpact2 from '../../assets/images/social-impact/2.png';
-import socialImpact3 from '../../assets/images/social-impact/3.png';
+import socialImpact1 from '../../assets/images/social-impact/1.avif';
+import socialImpact2 from '../../assets/images/social-impact/2.avif';
+import socialImpact3 from '../../assets/images/social-impact/3.avif';
 
 const SocialImpact = () => {
     return (
