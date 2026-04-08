@@ -11,6 +11,7 @@ import About from './pages/About.jsx';
 import Solutions from './pages/Solutions.jsx';
 import Error from './pages/Error.jsx';
 import Blogs from './pages/Blogs.jsx';
+import EsgImpact from './pages/EsgImpact';
 import Contact from './pages/Contact';
 
 let routers = createBrowserRouter([
@@ -23,6 +24,7 @@ let routers = createBrowserRouter([
       {path: "/about", element: <About />},
       {path: "/solutions", element: <Solutions />},
       {path: "/blogs", element: <Blogs />},
+      {path: "/esg-and-impact", element: <EsgImpact />},
       {path: "/contact", element: <Contact />},
       {path: "*", element: <Error />},
     ]
