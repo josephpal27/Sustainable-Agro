@@ -1,0 +1,9 @@
+.reporting{
+    padding: 2rem 7% 4rem 7%;
+}
+.reporting-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
