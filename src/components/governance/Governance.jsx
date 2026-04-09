@@ -1,6 +1,6 @@
 import './Governance.css';
-import governanceImage1 from '../../assets/images/governance-1.png';
-import governanceImage2 from '../../assets/images/governance-2.png';
+import governanceImage1 from '../../assets/images/governance-1.avif';
+import governanceImage2 from '../../assets/images/governance-2.avif';
 
 const Governance = () => {
     return (
