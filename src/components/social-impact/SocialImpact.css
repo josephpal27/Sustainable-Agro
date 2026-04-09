@@ -44,3 +44,17 @@
     scale: 1.03;
     filter: grayscale(0);
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+
+}

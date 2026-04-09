@@ -1,5 +1,5 @@
 .reporting{
-    padding: 2rem 7% 4rem 7%;
+    padding: 2rem 7% 5rem 7%;
 }
 .reporting-head{
     display: flex;
@@ -99,4 +99,18 @@
 .reports-tabbing-container .tab-content a .download-icon{
     font-size: calc(0.6rem + 0.5vw);
     margin-top: -5px;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+
 }
