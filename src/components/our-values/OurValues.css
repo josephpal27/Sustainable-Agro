@@ -19,11 +19,18 @@
 .our-values .our-values-row .value-box{
     width: 25%;
     position: relative;
+    overflow: hidden;
 }
 .our-values .our-values-row .value-box img{
     width: 100%;
-    scale: 1;
+    scale: 1.01;
     transition: all 0.3s ease;
+    filter: grayscale(100%) brightness(90%);
+    transition: all 0.3s ease;
+}
+.our-values .our-values-row .value-box:hover img{
+    scale: 1.04;
+    filter: grayscale(0%) brightness(100%);
 }
 .our-values .our-values-row .value-content{
     width: 100%;

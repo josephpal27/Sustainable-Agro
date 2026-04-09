@@ -30,7 +30,7 @@ const OurImpact = () => {
             <section className="impact">
                 <div className="impact-head">
                     <h4 data-aos="fade-up">OUR <span>IMPACT</span></h4>
-                    <p data-aos="fade">We measure success not just in <br /> yield, but in impact.</p>
+                    <p data-aos="fade">We measure success not just in yield, but in impact.</p>
                 </div>
                 <div className="impact-row">
                     {
