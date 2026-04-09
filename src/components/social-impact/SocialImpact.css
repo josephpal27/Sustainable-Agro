@@ -47,11 +47,33 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    .social-impact{
+        margin-top: 4rem;
+    }
+    .social-impact-content h3{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .social-impact-content p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .social-impact-images{
+        margin-top: 1.8rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    .social-impact{
+        margin-top: 3.5rem;
+    }
+    .social-impact-content h3{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .social-impact-content p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .social-impact-images{
+        margin-top: 1.5rem;
+    }
 }
 
 /* Mobile screen */
