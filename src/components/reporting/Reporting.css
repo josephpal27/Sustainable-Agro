@@ -7,3 +7,96 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.reporting-head .left{
+    width: 45%;
+}
+.reporting-head .left h5{
+    color: #3ebf89;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
+}
+.reporting-head .left h5 span{
+    font-weight: 300;
+}
+.reporting-head .right{
+    width: 50%;
+}
+.reporting-head .right b{
+    color: #373737;
+    font-size: calc(1rem + 0.5vw);
+}
+.reporting-head .right p{
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+}
+
+.reports-tabbing-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.reports-tabbing-container .tab-head{
+    width: 45%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    padding: 2rem;
+}
+.reports-tabbing-container .nav-link{
+    padding-bottom: 1rem;
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 500;
+    color: #282828;
+    border: none;
+    border-bottom: 2px solid #cdcdcd;
+    margin-bottom: 1rem;
+    background-color: transparent !important;
+}
+.reports-tabbing-container .nav-item:last-child .nav-link{
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.reports-tabbing-container .nav-link.active{
+    color: #3ebf89;
+    border-bottom: 2px solid #cdcdcd;
+}
+.reports-tabbing-container .tab-content{
+    width: 50%;
+    background-color: #e0f3ee;
+    padding: 2rem;
+    position: relative;
+}
+.reports-tabbing-container .tab-content span{
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 500;
+    color: #3ebf89;
+}
+.reports-tabbing-container .tab-content p{
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.reports-tabbing-container .tab-content a{
+    color: #fff;
+    background-color: #3ebf89;
+    font-size: calc(0.55rem + 0.5vw);
+    text-decoration: none;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    transition: 0.2s ease;
+}
+.reports-tabbing-container .tab-content a:hover{
+    background-color: #2fa272;
+}
+.reports-tabbing-container .tab-content a .download-icon{
+    font-size: calc(0.6rem + 0.5vw);
+    margin-top: -5px;
+}
