@@ -206,5 +206,61 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
+    .reporting{
+        padding: 0 1rem 3rem 1rem;
+    }
+    .reporting-head .left{
+        width: 100%;
+    }
+    .reporting-head .right{
+        width: 100%;
+    }
+    .reporting-head .left h5{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .reporting-head .right b{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .reporting-head .right p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
 
+    .reports-tabbing-container{
+        margin-top: 1.2rem;
+    }
+    .reports-tabbing-container .tab-head{
+        padding: 0.7rem 0 1.2rem 0;
+        width: 100%;
+    }
+    .reports-tabbing-container .nav-link{
+        padding-bottom: 1rem;
+        font-size: calc(1.1rem + 0.5vw);
+        border-bottom: 1px solid #cdcdcd;
+        margin-bottom: 0.7rem;
+    }
+    .reports-tabbing-container .nav-link.active{
+        border-bottom: 1px solid #cdcdcd;
+    }
+    .reports-tabbing-container .tab-content{
+        padding: 1rem 1rem 4rem 1rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .reports-tabbing-container .tab-content span{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .reports-tabbing-container .tab-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+    .reports-tabbing-container .tab-content a{
+        font-size: calc(0.8rem + 0.5vw);
+        padding: 0.3rem 0.7rem;
+        right: 1rem;
+        bottom: 1rem;
+    }
+    .reports-tabbing-container .tab-content a .download-icon{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: -2px;
+    }
 }

@@ -97,5 +97,34 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-
+    .environmental{
+        padding: 1rem 1rem 0 1rem;
+        flex-direction: column-reverse;
+    }
+    .environmental-image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .environmental-image img{
+        width: 60%;
+    }
+    .environmental-content{
+        width: 100%;
+    }
+    .environmental-content h2{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: 0;
+    }
+    .environmental-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .environmental .bg-label{
+        bottom: 5rem;
+    }
+    .environmental .bg-label span{
+        font-size: calc(2.7rem + 0.5vw);
+    }
 }

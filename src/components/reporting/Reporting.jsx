@@ -35,7 +35,7 @@ const Reporting = () => {
             <section className="reporting">
                 <div className="reporting-head">
                     <div className="left">
-                        <h5><span>SUSTAINABILITY</span> <br /> REPORTING</h5>
+                        <h5 data-aos="fade-up"><span>SUSTAINABILITY</span> <br /> REPORTING</h5>
                     </div>
                     <div className="right">
                         <b>Download our latest Annual Sustainability Report</b>

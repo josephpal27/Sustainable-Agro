@@ -8,8 +8,8 @@ const SocialImpact = () => {
         <>
             <section className="social-impact">
                 <div className="social-impact-content">
-                    <h3><span>SOCIAL</span> <br /> IMPACT</h3>
-                    <p>People are at the heart of our mission. We ensure fair labor practices across our supply chain and actively invest in community development. Our programs focus on empowering smallholder farmers, promoting gender equality in agriculture, and ensuring safe working conditions.</p>
+                    <h3 data-aos="fade-up"><span>SOCIAL</span> <br /> IMPACT</h3>
+                    <p data-aos="fade">People are at the heart of our mission. We ensure fair labor practices across our supply chain and actively invest in community development. Our programs focus on empowering smallholder farmers, promoting gender equality in agriculture, and ensuring safe working conditions.</p>
                 </div>
                 <div className="social-impact-images">
                     <div className="img-box">

@@ -70,5 +70,23 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-
+    .governance{
+        padding: 2.5rem 1rem 1rem 1rem;
+    }
+    .governance h4{
+        font-size: calc(2rem + 0.5vw);
+    }
+    .governance-row{
+        margin-top: 1.5rem;
+    }
+    .governance-image{
+        width: 100%;
+    }
+    .governance-content{
+        width: 100%;
+        margin-top: 1.2rem;
+    }
+    .governance-content p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
 }
