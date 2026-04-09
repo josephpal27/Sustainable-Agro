@@ -39,11 +39,33 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    .governance{
+        padding: 3.5rem 7%;
+    }
+    .governance h4{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .governance-row{
+        margin-top: 2rem;
+    }
+    .governance-content p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    .governance{
+        padding: 3rem 7%;
+    }
+    .governance h4{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .governance-row{
+        margin-top: 1.8rem;
+    }
+    .governance-content p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
 }
 
 /* Mobile screen */
