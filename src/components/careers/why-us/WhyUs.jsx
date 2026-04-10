@@ -7,8 +7,8 @@ const WhyUs = () => {
         <>
             <section className="why-us">
                 <div className="why-us-content">
-                    <h2> " <span>WHY</span> <br /> JOIN US " </h2>
-                    <p>Join a team that is redefining the future of our planet. At Sustainable Agro, you will work at the cutting edge of climate-tech and agronomy. We offer a collaborative, fast-paced environment where your work directly contributes to global sustainability goals.</p>
+                    <h2 data-aos="fade-up"> " <span>WHY</span> <br /> JOIN US " </h2>
+                    <p data-aos="fade">Join a team that is redefining the future of our planet. At Sustainable Agro, you will work at the cutting edge of climate-tech and agronomy. We offer a collaborative, fast-paced environment where your work directly contributes to global sustainability goals.</p>
                     <img src={arrow} alt="Arrow" loading="lazy" />
                 </div>
                 <div className="why-us-image">

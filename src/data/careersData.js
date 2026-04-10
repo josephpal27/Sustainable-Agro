@@ -1,0 +1,26 @@
+export const careersData = [
+    {
+        id: 1,
+        title: "Senior Agronomist",
+        desc: "Lead field trials and crop protocol development for our partner farms. Requires 5+ years of experience in regenerative practices.",
+        experience: "10",
+        date: "9-04-2026",
+        slug: "senior-agronomist",
+    },
+    {
+        id: 2,
+        title: "Renewable Energy Engineer",
+        desc: "Design and oversee the installation of on-farm solar and biomass systems. Experience with off-grid systems preferred.",
+        experience: "10",
+        date: "8-04-2026",
+        slug: "renewable-energy-engineer",
+    },
+    {
+        id: 3,
+        title: "Sustainability Analyst",
+        desc: "Track and report on project impact metrics, ensuring alignment with international carbon standards.",
+        experience: "10",
+        date: "15-03-2026",
+        slug: "sustainability-analyst",
+    },
+]

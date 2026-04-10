@@ -10,8 +10,8 @@ const Culture = () => {
                     <img src={cultureImage} alt="Culture" loading="lazy" />
                 </div>
                 <div className="culture-content">
-                    <h3><span>CULTURE</span> <br /> & BENEFITS</h3>
-                    <p>We value curiosity, resilience, and impact. Our employees enjoy competitive compensation, comprehensive health benefits, continuous professional development opportunities, and the chance to work on projects that matter.</p>
+                    <h3 data-aos="fade-up"><span>CULTURE</span> <br /> & BENEFITS</h3>
+                    <p data-aos="fade">We value curiosity, resilience, and impact. Our employees enjoy competitive compensation, comprehensive health benefits, continuous professional development opportunities, and the chance to work on projects that matter.</p>
                     <img src={arrow} alt="Arrow" loading="lazy" />
                 </div>
             </section>
