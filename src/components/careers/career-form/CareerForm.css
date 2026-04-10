@@ -1,0 +1,61 @@
+.career-form{
+    padding: 1rem 7% 4rem 7%;
+}
+.career-form h3{
+    text-align: center;
+}
+.career-form form{
+    background-color: #f4f4f4;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.career-form form .input-box{
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+}
+.career-form form .resume-box{
+    width: 100%;
+}
+.career-form form .input-box label{
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    color: #188255;
+}
+.career-form form .input-box label span{
+    color: rgb(225, 0, 0);
+}
+.career-form form .input-box input{
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin: 0.5rem 0 1.3rem 0;
+    padding: 0.8rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.055) 0px 1px 4px;
+    background: #fff;
+}
+.career-form form .input-box input:focus{
+    box-shadow: rgba(0, 0, 0, 0.278) 0px 1px 4px;
+}
+.career-form form button{
+    font-size: calc(0.7rem + 0.5vw);
+    background-color: #3ebf89;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 0.7rem 6rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: 0.3s ease;
+}
+.career-form form button:hover{
+    background-color: #128454;
+}

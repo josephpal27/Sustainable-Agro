@@ -7,8 +7,8 @@ const ContactDetails = () => {
         <>
             <section className="contact-details">
                 <div className="contact-left">
-                    <h2><span>Get in touch</span> for support, queries, <span>or</span> collaborations</h2>
-                    <p>Whether you need a quote for our power transformers, require 24x7 breakdown support, or want to discuss a global partnership, our dedicated team is ready to assist you.</p>
+                    <h2 data-aos="fade"><span>Get in touch</span> for support, queries, <span>or</span> collaborations</h2>
+                    <p data-aos="fade">Whether you need a quote for our power transformers, require 24x7 breakdown support, or want to discuss a global partnership, our dedicated team is ready to assist you.</p>
                     <div className="contact-details-boxes-row">
                         <div className="details-box">
                             <span>Call Us</span>

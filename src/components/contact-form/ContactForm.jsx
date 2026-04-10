@@ -3,7 +3,7 @@ import './ContactForm.css';
 const ContactForm = () => {
     return (
         <>
-            <div className="contact-form">
+            <div className="contact-form" data-aos="fade-up" data-aos-once="true">
                 <span>Get In Touch</span>
                 <p>You’ll be heard by people who care and respond. <br />
                     Get in touch with our team.</p>

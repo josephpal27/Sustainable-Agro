@@ -13,6 +13,7 @@ import Error from './pages/Error.jsx';
 import Blogs from './pages/Blogs.jsx';
 import EsgImpact from './pages/EsgImpact';
 import Careers from './pages/Careers';
+import CareersDetails from './pages/CareersDetails.jsx';
 import Contact from './pages/Contact';
 
 let routers = createBrowserRouter([
@@ -27,6 +28,7 @@ let routers = createBrowserRouter([
       {path: "/blogs", element: <Blogs />},
       {path: "/esg-and-impact", element: <EsgImpact />},
       {path: "/careers", element: <Careers />},
+      {path: "/careers/:slug", element: <CareersDetails />},
       {path: "/contact", element: <Contact />},
       {path: "*", element: <Error />},
     ]
