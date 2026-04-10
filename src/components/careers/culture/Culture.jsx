@@ -1,5 +1,5 @@
 import './Culture.css';
-import cultureImage from '../../../assets/images/culture.png';
+import cultureImage from '../../../assets/images/culture.avif';
 import arrow from '../../../assets/images/arrow.png';
 
 const Culture = () => {

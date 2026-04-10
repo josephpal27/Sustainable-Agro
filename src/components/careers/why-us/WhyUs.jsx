@@ -1,5 +1,5 @@
 import './WhyUs.css';
-import whyUsImage from '../../../assets/images/why-us.png';
+import whyUsImage from '../../../assets/images/why-us.avif';
 import arrow from '../../../assets/images/arrow.png';
 
 const WhyUs = () => {

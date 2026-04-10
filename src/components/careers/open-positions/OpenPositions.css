@@ -48,6 +48,7 @@
     font-size: calc(0.7rem + 0.5vw);
     background-color: #3ebf89;
     color: #fff;
+    font-weight: 500;
     padding: 0.3rem 1.3rem;
     border-radius: 5px;
     text-decoration: none;
@@ -132,5 +133,42 @@
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-
+    .career-options{
+        padding: 3rem 1rem 3.5rem 1rem;
+    }
+    .career-options .career-opt-head{
+        border-bottom: 1px solid #848484;
+        padding-bottom: 0.5rem;
+    }
+    .career-options .career-opt-head h4{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .career-options .career-opt-head span{
+        font-size: calc(1.2rem + 0.5vw);
+        margin-top: 1rem;
+        padding-left: 0.5rem;
+    }
+    .career-options .career-card{
+        padding: 1rem 0.5rem 1.3rem 0.5rem;
+        border-bottom: 1px solid #848484;
+    }
+    .career-options .career-card .career-card-left{
+        width: 100%;
+    }
+    .career-options .career-card span{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-bottom: 0.5rem;
+    }
+    .career-options .career-card p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .career-options .career-card .career-desc{
+        margin-top: 1rem;
+    }
+    .career-options .career-card a{
+        font-size: calc(0.9rem + 0.5vw);
+        padding: 0.4rem 1rem;
+        margin-top: 1rem;
+        display: block;
+    }
 }
