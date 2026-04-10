@@ -5,7 +5,7 @@ const CareerDetailsBanner = () => {
         <>
             <section className="career-details-banner">
                 <h1>CAREER</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsa ab culpa, libero et voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquam.</p>
+                <p>We value curiosity, resilience, and impact. Our employees enjoy competitive compensation, comprehensive health benefits, continuous professional development opportunities, and the chance to work on projects that matter.</p>
             </section>
         </>
     )

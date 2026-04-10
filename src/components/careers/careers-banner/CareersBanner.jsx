@@ -7,7 +7,7 @@ const CareersBanner = () => {
                 <img src="/images/banners/careers-banner.png" alt="Careers Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">CAREER</h1>
-                    <p data-aos="fade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, praesentium distinctio! Unde quos saepe ea, sed fugiat corrupti, id excepturi, inventore aliquam non a omnis!</p>
+                    <p data-aos="fade">Join a team that is redefining the future of our planet. At Sustainable Agro, you will work at the cutting edge of climate-tech and agronomy. We offer a collaborative, fast-paced environment where your work directly contributes to global sustainability goals.</p>
                 </div>
             </section>
         </>

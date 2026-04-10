@@ -7,7 +7,7 @@ const ContactBanner = () => {
                 <img src="/images/banners/blogs-banner.avif" alt="Contact Banner" loading="eager" />
                 <div className="banner-content">
                     <h1 data-aos="fade-up">CONTACT US</h1>
-                    <p data-aos="fade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, mollitia vel hic cum debitis alias?</p>
+                    <p data-aos="fade">Ready to transform your agricultural operations? Get in touch with our team today.</p>
                 </div>
             </section>
         </>
