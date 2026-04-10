@@ -1,10 +1,21 @@
 import './CareerForm.css';
+import { careersData } from '../../../data/careersData';
+import { useParams } from 'react-router-dom';
 
 const CareerForm = () => {
+
+    const { slug } = useParams();
+
+    const job = careersData.find(item => item.slug === slug);
+
+    if (!job) {
+        return null;
+    }
+
     return (
         <>
             <section className="career-form">
-                <h3>Applying For - Renewable Energy Engineer</h3>
+                <h3>Applying For - {job.title}</h3>
                 <form action="">
                     <div className="input-box">
                         <label htmlFor="f_name">First Name <span>*</span></label>

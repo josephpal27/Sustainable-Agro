@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="foot-box">
                 <img src={footLogo} alt="Logo" loading="lazy" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sit, iure quas mollitia quam voluptatem doloremque hic blanditiis.</p>
+                <p>Integrating renewable energy solutions with sustainable farming practices to drive yield resilience, resource efficiency, and climate-smart growth.</p>
             </div>
             <div className="foot-box">
                 <span>Quick Links</span>

@@ -25,3 +25,12 @@
 .insights .insights-body{
     margin-top: 2rem;
 }
+
+.no-career-data{
+    padding: 3rem 7%;
+    margin: 0;
+    text-align: center;
+    font-size: calc(0.9rem + 0.5vw);
+    font-weight: 500;
+    color: rgb(189, 0, 0);
+}

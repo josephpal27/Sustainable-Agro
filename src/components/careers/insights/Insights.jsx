@@ -1,18 +1,29 @@
 import './Insights.css';
+import { careersData } from '../../../data/careersData';
+import { useParams } from 'react-router-dom';
 
 const Insights = () => {
+
+    const { slug } = useParams();
+
+    const job = careersData.find(item => item.slug === slug);
+
+    if (!job) {
+        return <p className="no-career-data">No Data Found</p>;
+    }
+
     return (
         <>
             <section className="insights">
                 <div className="insights-head">
-                    <h2>Renewable Energy Engineer</h2>
-                    <p>Posted On : 15-03-2026</p>
+                    <h2>{job.title}</h2>
+                    <p>Posted On : {job.date}</p>
                 </div>
                 <div className="insights-body">
-                    <p>Experience : 10 years</p>
-                    <p>Job Type : Full-Time, On-Site</p>
-                    <p>Location : Kolkata</p>
-                    <p>Lead field trials and crop protocol development for our partner farms. Requires 5+ years of experience in regenerative practices.</p>
+                    <p>Experience : {job.experience} years</p>
+                    <p>Job Type : {job.jobType}</p>
+                    <p>Location : {job.location}</p>
+                    <p>{job.desc}</p>
                 </div>
             </section>
         </>

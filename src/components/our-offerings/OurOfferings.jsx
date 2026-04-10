@@ -6,6 +6,7 @@ import offeringImg1 from '../../assets/images/offerings/1.avif';
 import offeringImg2 from '../../assets/images/offerings/2.avif';
 import offeringImg3 from '../../assets/images/offerings/3.avif';
 import offeringImg4 from '../../assets/images/offerings/4.avif';
+import offeringImg5 from '../../assets/images/offerings/5.jpeg';
 
 const OurOfferings = () => {
     return (
@@ -49,7 +50,10 @@ const OurOfferings = () => {
                     </div>
                 </div>
                 <div className="box large-box" id="large-text-box">
-                    <span data-aos="fade">Strategic Crop Programs</span>
+                    <img src={offeringImg5} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span data-aos="fade">Strategic Crop Programs</span>
+                    </div>
                 </div>
             </section>
         </>

@@ -82,6 +82,11 @@
     left: 0;
     padding: 1rem;
 }
+.our-offerings .large-box .layer{
+    width: 100%;
+    height: 100%;
+    background-color: #33ad7a94;
+}
 .our-offerings .large-box:hover .layer{
     width: 97.2%;
 }
@@ -103,6 +108,9 @@
 }
 .our-offerings .box:hover .layer span,
 .our-offerings .box:hover .layer p{
+    opacity: 1;
+}
+.our-offerings .large-box .layer span{
     opacity: 1;
 }
 .our-offerings .box .layer button{
