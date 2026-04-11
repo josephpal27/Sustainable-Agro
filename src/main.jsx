@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { HelmetProvider } from "react-helmet-async";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import './index.css'; // Import custom CSS
 import "aos/dist/aos.css"; // Import AOS CSS
@@ -19,24 +20,26 @@ import Contact from './pages/Contact';
 let routers = createBrowserRouter([
   {
     path: "/",
-    element: <App />, 
+    element: <App />,
     // errorElement: <Error />,
     children: [
-      {path: "/", element: <Home />},
-      {path: "/about", element: <About />},
-      {path: "/solutions", element: <Solutions />},
-      {path: "/blogs", element: <Blogs />},
-      {path: "/esg-and-impact", element: <EsgImpact />},
-      {path: "/careers", element: <Careers />},
-      {path: "/careers/:slug", element: <CareersDetails />},
-      {path: "/contact", element: <Contact />},
-      {path: "*", element: <Error />},
+      { path: "/", element: <Home /> },
+      { path: "/about", element: <About /> },
+      { path: "/solutions", element: <Solutions /> },
+      { path: "/blogs", element: <Blogs /> },
+      { path: "/esg-and-impact", element: <EsgImpact /> },
+      { path: "/careers", element: <Careers /> },
+      { path: "/careers/:slug", element: <CareersDetails /> },
+      { path: "/contact", element: <Contact /> },
+      { path: "*", element: <Error /> },
     ]
   }
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={routers} />
+    <HelmetProvider>
+      <RouterProvider router={routers} />
+    </HelmetProvider>
   </StrictMode>,
 )

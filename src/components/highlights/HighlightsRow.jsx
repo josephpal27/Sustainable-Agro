@@ -15,25 +15,25 @@ const HighlightsRow = () => {
             id: 1,
             img: highlightImg1,
             title: "Productive Gardens & Landscapes",
-            description: "Get expert advice on how to design a garden.",
+            description: "Beautiful, carbon-capturing landscapes optimized for maximum agricultural yield.",
         },
         {
             id: 2,
             img: highlightImg2,
             title: "Urban Greening & Energy Efficiency",
-            description: "Plants are expensive and need to be looked after.",
+            description: "Cooling cities and lowering energy costs through innovative urban farming.",
         },
         {
             id: 3,
             img: highlightImg3,
             title: "Asset Maintenance & Operations",
-            description: "Keep your green garden low maintenance.",
+            description: "Year-round expert care to keep your green and renewable assets peaking.",
         },
         {
             id: 4,
             img: highlightImg4,
             title: "Education & Community Events",
-            description: "Fun programs for adults, children and families.",
+            description: "Engaging workshops and training to inspire sustainable, regenerative practices.",
         },
     ]
 
@@ -48,7 +48,7 @@ const HighlightsRow = () => {
                                     <img src={item.img} alt="Icon" loading="lazy" />
                                     <span>{item.title}</span>
                                     <p>{item.description}</p>
-                                    <Link to="/">Read More</Link>
+                                    <Link to="/solutions">Read More</Link>
                                 </div>
                             )
                         })
