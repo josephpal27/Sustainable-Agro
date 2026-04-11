@@ -34,3 +34,57 @@
     font-weight: 500;
     color: rgb(189, 0, 0);
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .insights{
+        padding: 3.5rem 7% 2rem 7%;
+    }
+    .insights .insights-head{
+        border-bottom: 1px solid #3ebf89;
+        padding-bottom: 0.9rem;
+    }
+    .insights .insights-head h2{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .insights p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .insights .insights-body{
+        margin-top: 1.7rem;
+    }
+
+    .no-career-data{
+        padding: 2.5rem 7%;
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .insights{
+        padding: 3rem 7% 1.5rem 7%;
+    }
+    .insights .insights-head{
+        border-bottom: 1px solid #3ebf89;
+        padding-bottom: 0.8rem;
+    }
+    .insights .insights-head h2{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .insights p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .insights .insights-body{
+        margin-top: 1.5rem;
+    }
+
+    .no-career-data{
+        padding: 2rem 7%;
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+
+}

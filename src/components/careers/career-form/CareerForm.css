@@ -1,8 +1,9 @@
 .career-form{
-    padding: 1rem 7% 4rem 7%;
+    padding: 0.5rem 7% 4rem 7%;
 }
 .career-form h3{
     text-align: center;
+    font-size: calc(1.1rem + 0.5vw);
 }
 .career-form form{
     background-color: #f4f4f4;
@@ -45,6 +46,9 @@
 .career-form form .input-box input:focus{
     box-shadow: rgba(0, 0, 0, 0.278) 0px 1px 4px;
 }
+.career-form form .input-box input[type="number"]::-webkit-inner-spin-button{
+    display: none;
+}
 .career-form form button{
     font-size: calc(0.7rem + 0.5vw);
     background-color: #3ebf89;
@@ -58,4 +62,62 @@
 }
 .career-form form button:hover{
     background-color: #128454;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .career-form{
+        padding: 0.3rem 7% 3.5rem 7%;
+    }
+    .career-form h3{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .career-form form{
+        margin: 1.8rem auto;
+        padding: 1.8rem;
+    }
+    .career-form form .input-box label{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .career-form form .input-box input{
+        font-size: calc(0.65rem + 0.5vw);
+        margin: 0.4rem 0 1.2rem 0;
+        padding: 0.8rem 0.9rem;
+    }
+    .career-form form button{
+        font-size: calc(0.65rem + 0.5vw);
+        padding: 0.7rem 5rem;
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .career-form{
+        padding: 0.4rem 7% 3rem 7%;
+    }
+    .career-form h3{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .career-form form{
+        margin: 1.6rem auto;
+        padding: 1.6rem;
+    }
+    .career-form form .input-box label{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .career-form form .input-box input{
+        font-size: calc(0.6rem + 0.5vw);
+        margin: 0.3rem 0 1.1rem 0;
+        padding: 0.7rem 0.8rem;
+    }
+    .career-form form button{
+        font-size: calc(0.6rem + 0.5vw);
+        padding: 0.65rem 4.5rem;
+        margin-top: 0.8rem;
+    }
+}   
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+
 }

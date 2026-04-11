@@ -1,12 +1,12 @@
 .career-details-banner{
     background-color: #0d6f46;
-    height: 60vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: end;
     color: #fff;
-    padding: 0 7% 3rem 7%;
+    padding: 0 7% 2.5rem 7%;
 }
 .career-details-banner h1{
     font-size: calc(3.5rem + 0.5vw);
@@ -17,4 +17,34 @@
     font-weight: 500;
     text-align: center;
     width: 60%;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .career-details-banner{
+        padding: 0 7% 2rem 7%;
+    }
+    .career-details-banner h1{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .career-details-banner p{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .career-details-banner{
+        padding: 0 7% 1.5rem 7%;
+    }
+    .career-details-banner h1{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .career-details-banner p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+}
+
+/* Mobile screen */
+@media screen and (max-width: 768px) {
+
 }
