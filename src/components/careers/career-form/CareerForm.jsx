@@ -15,7 +15,7 @@ const CareerForm = () => {
     return (
         <>
             <section className="career-form">
-                <h3>Applying For - {job.title}</h3>
+                <h3>Applying For <span id="hyphen">-</span> <br /> <span id="job-title">{job.title}</span></h3>
                 <form action="">
                     <div className="input-box">
                         <label htmlFor="f_name">First Name <span>*</span></label>
