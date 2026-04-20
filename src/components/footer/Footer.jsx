@@ -31,9 +31,9 @@ const Footer = () => {
             </div>
             <div className="foot-box">
                 <span>Get In Touch</span>
-                <a href="#"><IoHomeSharp className="icon" /> 202 Park Avenue, New York City</a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=example@gmail.com" target="_blank" ><IoMailOpen className="icon"/> example@gmail.com</a>
-                <a href="tel:+911234567890"><FaPhone className="icon phone-icon" /> +91 123 456 7890</a>
+                <a href="https://maps.app.goo.gl/8ebzGpfZayKvgU2Y7" target="_blank"><IoHomeSharp className="icon home-icon" /> SUSTAINABLE AGRO Vridi Cite' Port, Abidjan, Co'te d' Ivoire 01 BP 12171, ABIDJAN 01</a>
+                <a href="mailto:info@sustainableagro.net" ><IoMailOpen className="icon"/> info@sustainableagro.net</a>
+                <a href="tel:+2250507381923"><FaPhone className="icon phone-icon" /> +225 05073 81923</a>
                 <div className="social-icons">
                     <a href="#" target="_blank"><FaFacebookF className="icon" /></a>
                     <a href="#" target="_blank"><FaInstagram className="icon" /></a>

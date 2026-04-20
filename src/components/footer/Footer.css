@@ -44,7 +44,6 @@ footer .footer-content .foot-box a{
     display: block;
     text-decoration: none;
     display: flex;
-    align-items: center;
     gap: 0.5rem;
 }
 footer .footer-content .foot-box a:hover{
@@ -52,9 +51,15 @@ footer .footer-content .foot-box a:hover{
 }
 footer .footer-content .foot-box a .icon{
     font-size: calc(0.9rem + 0.5vw);
+    margin-top: 2px;
 }
 footer .footer-content .foot-box a .phone-icon{
     font-size: calc(0.8rem + 0.5vw);
+    margin-top: 3px;
+}
+footer .footer-content .foot-box a .home-icon{
+    font-size: calc(2.5rem + 0.5vw);
+    margin-top: -5px;
 }
 footer .footer-content .foot-box .social-icons{
     margin-top: 2rem;
@@ -118,6 +123,9 @@ footer .copyright p{
     footer .footer-content .foot-box a .phone-icon{
         font-size: calc(0.75rem + 0.5vw);
     }
+    footer .footer-content .foot-box a .home-icon{
+        font-size: calc(2.35rem + 0.5vw);
+    }
     footer .footer-content .foot-box .social-icons{
         margin-top: 1.8rem;
         gap: 0.9rem;
@@ -162,6 +170,9 @@ footer .copyright p{
     }
     footer .footer-content .foot-box a .phone-icon{
         font-size: calc(0.7rem + 0.5vw);
+    }
+    footer .footer-content .foot-box a .home-icon{
+        font-size: calc(2.2rem + 0.5vw);
     }
     footer .footer-content .foot-box .social-icons{
         margin-top: 1.7rem;
@@ -221,6 +232,10 @@ footer .copyright p{
     }
     footer .footer-content .foot-box a .phone-icon{
         font-size: calc(0.95rem + 0.5vw);
+    }
+    footer .footer-content .foot-box a .home-icon{
+        font-size: calc(2.1rem + 0.5vw);
+        margin-top: -3px;
     }
     footer .footer-content .foot-box .social-icons{
         margin-top: 1.6rem;

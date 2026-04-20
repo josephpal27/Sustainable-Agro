@@ -12,15 +12,15 @@ const ContactDetails = () => {
                     <div className="contact-details-boxes-row">
                         <div className="details-box">
                             <span>Call Us</span>
-                            <a href="">+91 00000 00000</a>
+                            <a href="tel:+2250507381923">+225 05073 81923</a>
                         </div>
                         <div className="details-box">
                             <span>Location</span>
-                            <a href="" target="_blank">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+                            <a href="https://maps.app.goo.gl/8ebzGpfZayKvgU2Y7" target="_blank">SUSTAINABLE AGRO Vridi Cite' Port, Abidjan, Co'te d' Ivoire 01 BP 12171, ABIDJAN 01</a>
                         </div>
                         <div className="details-box">
                             <span>Email Us</span>
-                            <a href="" target="_blank">example@gmail.com</a>
+                            <a href="mailto:info@sustainableagro.net">info@sustainableagro.net</a>
                         </div>
                         <div className="details-box">
                             <span>Social Handles</span>
