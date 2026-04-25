@@ -25,9 +25,9 @@ const Footer = () => {
             </div>
             <div className="foot-box">
                 <span>Brands</span>
-                <Link to="/tandhan-power">Tandhan Power</Link>
-                <Link to="/tandhan-polyplast">Tandhan Polyplast</Link>
-                <Link to="/riz-prime">Riz Prime</Link>
+                <a href="https://www.tandhanpower.com/" target="_blank" rel="noopener noreferrer">Tandhan Power</a>
+                <a href="https://www.tandhanpolyplast.com/" target="_blank" rel="noopener noreferrer">Tandhan Polyplast</a>
+                <a href="#">Riz Prime</a>
             </div>
             <div className="foot-box">
                 <span>Get In Touch</span>
