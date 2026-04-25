@@ -1,6 +1,6 @@
 import './Header.css';
 
-import { IoHomeSharp } from "react-icons/io5";
+import { IoHomeSharp, IoMailOpen } from "react-icons/io5";
 import { FaPhone, FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 const Header = () => {
@@ -12,12 +12,12 @@ const Header = () => {
         </div>
         <div className="header-right">
             <div className="head-box">
-                <IoHomeSharp className="icon" />
-                <p>202 Park Avenue, New York City</p>
+                <IoMailOpen className="icon"/>
+                <p>info@sustainableagro.net</p>
             </div>
             <div className="head-box">
                 <FaPhone className="icon" />
-                <p>+91 123 456 7890</p>
+                <p>+225 05073 81923</p>
             </div>
             <div className="social-icons">
                 <a href="#" target="_blank"><FaFacebookF className="icon" /></a>
