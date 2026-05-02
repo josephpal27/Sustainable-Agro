@@ -1,7 +1,6 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
 import { useEffect } from "react";
-import Header from "./components/header/Header"
-import MyNavbar from "./components/navbar/Navbar"
+import MyNavbar from "./components/navbar/Navbar";
 import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
 import AOS from "aos";
 
@@ -29,7 +28,6 @@ const App = () => {
 
   return (
     <>
-      <Header />
       <MyNavbar />
       <Outlet />
       <ScrollToTop />
