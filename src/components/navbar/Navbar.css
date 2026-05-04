@@ -1,13 +1,13 @@
 .navbar{
-  padding: 1.3rem 7% !important;
-  background: #80a558;
+  padding: 0.8rem 7% !important;
+  background: #fff;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 100;
 }
 .navbar .nav-brand img{
-  width: 140px;
+  width: 180px;
   border-radius: 4px;
 }
 .navbar .nav-link{
@@ -24,8 +24,8 @@
 
 .nav-link-btn,
 #navbarDropdown{
-  color: #fff !important;
-  background: transparent !important;
+  color: #80a558 !important;
+  background: #fff !important;
   text-transform: none !important;
   font-weight: 600 !important;
   font-size: calc(0.65rem + 0.5vw) !important;
@@ -39,12 +39,12 @@
 } 
 .nav-link-btn:hover,
 #navbarDropdown:hover{
-  background-color: #fff !important;
-  color: #80a558 !important;
+  background-color: #80a558 !important;
+  color: #fff !important;
 }
 .navbar .nav-link.active .nav-link-btn{
-  background-color: #fff !important;
-  color: #80a558 !important;
+  background-color: #80a558 !important;
+  color: #fff !important;
 }
 .navbar .dropdown-item-btn{
   width: 100%;
@@ -71,10 +71,10 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
   .navbar{
-    padding: 1.2rem 7% !important;
+    padding: 0.7rem 7% !important;
   }
   .navbar .nav-brand img{
-    width: 127px;
+    width: 165px;
   }
   .navbar .nav-link{
     margin-left: 0.9rem;
@@ -99,10 +99,10 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
   .navbar{
-    padding: 1.1rem 7% !important;
+    padding: 0.6rem 7% !important;
   }
   .navbar .nav-brand img{
-    width: 112px;
+    width: 147px;
   }
   .navbar .nav-link{
     margin-left: 0.8rem;
@@ -127,25 +127,25 @@
 
 @media (max-width: 992px){
   .navbar {
-    padding: 0.6rem 1rem !important;
+    padding: 0.5rem 1rem !important;
     position: relative;
   }
   .navbar .nav-brand img{
-    width: 125px;
+    width: 140px;
   }
   .navbar-toggler{
     border: none !important;
     box-shadow: none !important;
   }
   .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .offcanvas{
-    background: #80a558;
+    background: #fff;
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo{
-    width: 130px;
+    width: 140px;
     border-radius: 4px;
   }
   .offcanvas .MuiTouchRipple-root {
@@ -158,7 +158,7 @@
     width: max-content;
   }
   .offcanvas .nav-link.active{
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #80a558;
   }
   .nav-link-btn,
   #navbarDropdown{
@@ -167,6 +167,8 @@
     justify-content: left !important;
     width: max-content !important;
     min-width: unset !important;
+    color: #80a558 !important;
+    background: transparent !important;
   }
   #navbarDropdown{
     padding: 0 !important;
@@ -174,7 +176,7 @@
   .nav-link-btn:hover,
   #navbarDropdown:hover{
     background-color: transparent !important;
-    color: #fff !important;
+    color: #80a558 !important;
   }
   .offcanvas .nav-link.active .nav-link-btn{
     background-color: transparent !important;
