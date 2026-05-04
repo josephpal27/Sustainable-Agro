@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import HighlightsRow from '../components/highlights/HighlightsRow';
 import WhoWeAre from '../components/who-we-are/WhoWeAre';
-import FoundersMessage from '../components/founders-message/FoundersMessage';
+// import FoundersMessage from '../components/founders-message/FoundersMessage';
 import OurOfferings from '../components/our-offerings/OurOfferings';
 import BlogPosts from '../components/blog-posts/BlogPosts';
 import Footer from '../components/footer/Footer';
@@ -20,7 +20,7 @@ const Home = () => {
       <HomeBanner />
       <HighlightsRow />
       <WhoWeAre />
-      <FoundersMessage />
+      {/* <FoundersMessage /> */}
       <OurOfferings />
       <Innovation />
       <BlogPosts />

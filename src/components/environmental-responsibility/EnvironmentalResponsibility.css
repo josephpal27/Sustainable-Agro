@@ -21,7 +21,7 @@
     z-index: 10;
 }
 .environmental-content h2{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(3.5rem + 0.5vw);
     font-weight: 900;
     text-transform: uppercase;
@@ -43,7 +43,7 @@
     bottom: 5rem;
 }
 .environmental .bg-label span{
-    color: #3ebf894d;
+    color: #e4eddc;
     font-size: calc(7rem + 0.5vw);
     font-weight: 900;
     text-transform: uppercase;

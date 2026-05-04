@@ -30,7 +30,7 @@
 .career-form form .input-box label{
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 500;
-    color: #188255;
+    color: #587638;
 }
 .career-form form .input-box label span{
     color: rgb(225, 0, 0);
@@ -54,7 +54,7 @@
 }
 .career-form form button{
     font-size: calc(0.7rem + 0.5vw);
-    background-color: #3ebf89;
+    background-color: #80a558;
     color: #fff;
     font-weight: 500;
     border: none;
@@ -64,7 +64,7 @@
     transition: 0.3s ease;
 }
 .career-form form button:hover{
-    background-color: #128454;
+    background-color: #577538;
 }
 
 /* Media Queries */

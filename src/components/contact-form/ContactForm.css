@@ -1,7 +1,7 @@
 .contact-form{
     padding: 2.5rem 3rem;
     border-radius: 40px;
-    background-color: #0d6f46;
+    background-color: #516c34;
     color: #fff;
 }
 .contact-form span{
@@ -40,7 +40,7 @@
    border-bottom: 1px solid #fff;
 }
 .contact-form form button{
-   background-color: #3ebf89;
+   background-color: #80a558;
    font-size: calc(0.8rem + 0.5vw);
    padding: 0.9rem 2.5rem;
    border: none;
@@ -50,7 +50,7 @@
    transition: all 0.2s ease;
 }
 .contact-form form button:hover{
-   background-color: #0a462d;
+   background-color: #2f411c;
 }
 
 /* Media Queries */

@@ -1,5 +1,5 @@
 footer{
-    background-color: #3ebf89;
+    background-color: #80a558;
 }
 footer .footer-content{
     padding: 4rem 7%;
@@ -71,14 +71,14 @@ footer .footer-content .foot-box .social-icons a{
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
-    color: #3ebf89;
+    color: #80a558;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease;
 }
 footer .footer-content .foot-box .social-icons a:hover{
-    background-color: #128454;
+    background-color: #607f3f;
     color: #fff;
 }
 footer .footer-content .foot-box .social-icons .icon{
@@ -86,7 +86,7 @@ footer .footer-content .foot-box .social-icons .icon{
 }
 footer .copyright{
     padding: 1rem 0;
-    background-color: #0c6f46;
+    background-color: #4c672e;
 }
 footer .copyright p{
     margin: 0;

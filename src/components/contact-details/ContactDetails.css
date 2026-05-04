@@ -12,7 +12,7 @@
     font-weight: 700;
 }
 .contact-left h2 span{
-    color: #3ebf89;
+    color: #80a558;
 }
 .contact-left p{
     margin-top: 1rem;
@@ -33,7 +33,7 @@
     box-shadow: rgba(46, 46, 46, 0.327) 0px 2px 8px 0px;
 }
 .contact-details-boxes-row .details-box span{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(1rem + 0.5vw);
     font-weight: 700;
     display: block;
@@ -47,14 +47,14 @@
     text-decoration: none;
 }
 .contact-details-boxes-row .details-box a:hover{
-    color: #3ebf89;
+    color: #80a558;
 }
 .contact-details-boxes-row .details-box .social-icons{
     display: flex;
     gap: 1rem;
 }
 .contact-details-boxes-row .details-box .social-icons a{
-    background-color: #3ebf89;
+    background-color: #80a558;
     color: #fff;
     width: 32px;
     height: 32px;
@@ -66,7 +66,7 @@
     transition: all 0.2s ease;
 }
 .contact-details-boxes-row .details-box .social-icons a:hover{
-    background-color: #128454;
+    background-color: #546f36;
 }
 
 .contact-right{

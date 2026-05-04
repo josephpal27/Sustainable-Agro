@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: end;
     flex-wrap: wrap;
-    border-bottom: 1.5px solid #3ebf89;
+    border-bottom: 1.5px solid #80a558;
     padding-bottom: 1rem;
 }
 .insights .insights-head h2{
@@ -41,7 +41,7 @@
         padding: 3.5rem 7% 2rem 7%;
     }
     .insights .insights-head{
-        border-bottom: 1px solid #3ebf89;
+        border-bottom: 1px solid #80a558;
         padding-bottom: 0.9rem;
     }
     .insights .insights-head h2{
@@ -65,7 +65,7 @@
         padding: 3rem 7% 1.5rem 7%;
     }
     .insights .insights-head{
-        border-bottom: 1px solid #3ebf89;
+        border-bottom: 1px solid #80a558;
         padding-bottom: 0.8rem;
     }
     .insights .insights-head h2{
@@ -90,7 +90,7 @@
         padding: 1.5rem 1rem 1rem 1rem;
     }
     .insights .insights-head{
-        border-bottom: 1px solid #3ebf89;
+        border-bottom: 1px solid #80a558;
         padding-bottom: 0.6rem;
     }
     .insights .insights-head h2{

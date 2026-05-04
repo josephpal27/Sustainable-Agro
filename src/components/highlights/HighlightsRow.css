@@ -27,9 +27,10 @@
 }
 .highlights-cards-row .highlight-card img{
     width: 27%;
+    filter: invert(62%) sepia(80%) saturate(300%) hue-rotate(48deg) brightness(92%) contrast(89%);
 }
 .highlights-cards-row .highlight-card span{
-    color: #044b2d;
+    color: #4e6a31;
     font-size: calc(1rem + 0.5vw);
     font-weight: 500;
     display: block;
@@ -45,7 +46,7 @@
     font-weight: 450;
 }
 .highlights-cards-row .highlight-card a{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(0.6rem + 0.5vw);
     font-weight: 450;
     text-decoration: none;
@@ -58,7 +59,7 @@
 }
 .highlights-cards-row .highlight-card a:hover{
     color: #fff;
-    background-color: #3ebf89;
+    background-color: #80a558;
 }
 .highlights-cards-row .grass{
     width: 100%;

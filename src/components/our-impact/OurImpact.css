@@ -7,7 +7,7 @@
     align-items: center;
 }
 .impact .impact-head h4{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(3.5rem + 0.5vw);
     font-weight: 900;
     text-align: center;
@@ -46,7 +46,7 @@
     justify-content: center;
 }
 .impact .impact-row .impact-box .impact-content span{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(2.2rem + 0.5vw);
     font-weight: 700;
 }

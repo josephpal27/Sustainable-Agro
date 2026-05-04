@@ -14,7 +14,7 @@
     width: 49.3%;
 }
 .our-offerings #large-text-box{
-    background-color: #3ebf89;
+    background-color: #80a558;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
     width: 90%;
 }
 .our-offerings .large-box button{
-    background-color: #3ebf89;
+    background-color: #80a558;
     color: #fff;
     border-radius: 5px;
     margin-top: 1rem;
@@ -46,7 +46,7 @@
     text-transform: none;
 }
 .our-offerings .large-box button:hover{
-    background-color: #28a370;
+    background-color: #64873e;
 }
 .our-offerings .box img{
     width: 100%;
@@ -66,7 +66,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #3ebf89b7;
+    background-color: #80a558c8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +85,7 @@
 .our-offerings .large-box .layer{
     width: 100%;
     height: 100%;
-    background-color: #33ad7a94;
+    background-color: #80a558c8;
 }
 .our-offerings .large-box:hover .layer{
     width: 97.2%;
@@ -115,7 +115,7 @@
 }
 .our-offerings .box .layer button{
     background-color: #fff;
-    color: #3ebf89;
+    color: #80a558;
     border-radius: 5px;
     margin-top: 1rem;
     padding: 0.2rem 0.8rem;

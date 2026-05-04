@@ -19,7 +19,7 @@
     width: 40%;
 }
 .mission-vision .mv-box span{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(3.5rem + 0.5vw);
     font-weight: 300;
     line-height: 1;
@@ -49,7 +49,7 @@
 .mission-vision h2{
     font-size: calc(11rem + 0.5vw);
     font-weight: 600;
-    color: #d4f8ea;
+    color: #e4eddc;
     text-align: center;
     letter-spacing: 8px;
     white-space: nowrap;

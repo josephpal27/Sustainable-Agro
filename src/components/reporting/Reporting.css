@@ -11,7 +11,7 @@
     width: 45%;
 }
 .reporting-head .left h5{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(3.5rem + 0.5vw);
     font-weight: 900;
 }
@@ -61,19 +61,19 @@
     margin-bottom: 0;
 }
 .reports-tabbing-container .nav-link.active{
-    color: #3ebf89;
+    color: #80a558;
     border-bottom: 2px solid #cdcdcd;
 }
 .reports-tabbing-container .tab-content{
     width: 50%;
-    background-color: #e0f3ee;
+    background-color: #e4eddc;
     padding: 2rem;
     position: relative;
 }
 .reports-tabbing-container .tab-content span{
     font-size: calc(1rem + 0.5vw);
     font-weight: 500;
-    color: #3ebf89;
+    color: #80a558;
 }
 .reports-tabbing-container .tab-content p{
     color: #4a4a4a;
@@ -83,7 +83,7 @@
 }
 .reports-tabbing-container .tab-content a{
     color: #fff;
-    background-color: #3ebf89;
+    background-color: #80a558;
     font-size: calc(0.55rem + 0.5vw);
     text-decoration: none;
     padding: 0.4rem 0.9rem;
@@ -94,7 +94,7 @@
     transition: 0.2s ease;
 }
 .reports-tabbing-container .tab-content a:hover{
-    background-color: #2fa272;
+    background-color: #587836;
 }
 .reports-tabbing-container .tab-content a .download-icon{
     font-size: calc(0.6rem + 0.5vw);

@@ -1,11 +1,9 @@
 .navbar{
   padding: 1.3rem 7% !important;
-  background: transparent;
-  backdrop-filter: blur(10px);
+  background: #80a558;
   position: absolute;
   top: 0;
   width: 100%;
-  border-top: 2px solid rgba(255, 255, 255, 0.485);
   z-index: 100;
 }
 .navbar .nav-brand img{
@@ -42,11 +40,11 @@
 .nav-link-btn:hover,
 #navbarDropdown:hover{
   background-color: #fff !important;
-  color: #3ebf89 !important;
+  color: #80a558 !important;
 }
 .navbar .nav-link.active .nav-link-btn{
-  background-color: #3ebf89 !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #80a558 !important;
 }
 .navbar .dropdown-item-btn{
   width: 100%;
@@ -62,7 +60,7 @@
   transition: none;
 }
 .navbar .dropdown-item-btn:hover{
-  background-color: #3ebf89 !important;
+  background-color: #80a558 !important;
   color: #fff !important;
 }
 .navbar .dropdown-item.active{
@@ -74,7 +72,6 @@
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
   .navbar{
     padding: 1.2rem 7% !important;
-    border-top: 1.8px solid rgba(255, 255, 255, 0.485);
   }
   .navbar .nav-brand img{
     width: 127px;
@@ -103,7 +100,6 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
   .navbar{
     padding: 1.1rem 7% !important;
-    border-top: 1.6px solid rgba(255, 255, 255, 0.485);
   }
   .navbar .nav-brand img{
     width: 112px;
@@ -132,8 +128,7 @@
 @media (max-width: 992px){
   .navbar {
     padding: 0.6rem 1rem !important;
-    border-top: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.485);
+    position: relative;
   }
   .navbar .nav-brand img{
     width: 125px;
@@ -146,7 +141,7 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .offcanvas{
-    background: #3ebf89;
+    background: #80a558;
     width: 70% !important;
   }
   .offcanvas .offCanvasLogo{

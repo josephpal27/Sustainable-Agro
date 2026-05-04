@@ -7,7 +7,7 @@
     padding-bottom: 0.7rem;
 }
 .career-options .career-opt-head h4{
-    color: #3ebf89;
+    color: #80a558;
     font-size: calc(2rem + 0.5vw);
     font-weight: 600;
 }
@@ -46,7 +46,7 @@
 }
 .career-options .career-card a{
     font-size: calc(0.7rem + 0.5vw);
-    background-color: #3ebf89;
+    background-color: #80a558;
     color: #fff;
     font-weight: 500;
     padding: 0.3rem 1.3rem;
@@ -55,7 +55,7 @@
     transition: 0.3s ease;
 }
 .career-options .career-card a:hover{
-    background-color: #128454;
+    background-color: #536f34;
 }
 
 /* Media Queries */
