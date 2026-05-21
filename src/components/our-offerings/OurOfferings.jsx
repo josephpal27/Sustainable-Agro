@@ -36,8 +36,8 @@ const OurOfferings = () => {
                 <div className="box">
                     <img src={offeringImg3} alt="Product" loading="lazy" />
                     <div className="layer">
-                        <span>Cotton</span>
-                        <p>Regenerative soil practices and resource-efficient crop management.</p>
+                        <span>Timber</span>
+                        {/* <p>Regenerative soil practices and resource-efficient crop management.</p> */}
                         <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>

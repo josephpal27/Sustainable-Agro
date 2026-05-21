@@ -31,7 +31,8 @@ const Footer = () => {
             </div>
             <div className="foot-box">
                 <span>Get In Touch</span>
-                <a href="https://maps.app.goo.gl/8ebzGpfZayKvgU2Y7" target="_blank"><IoHomeSharp className="icon home-icon" /> SUSTAINABLE AGRO Vridi Cite' Port, Abidjan, Co'te d' Ivoire 01 BP 12171, ABIDJAN 01</a>
+                <a href="https://maps.app.goo.gl/8ebzGpfZayKvgU2Y7" target="_blank"><IoHomeSharp className="icon home-icon" />  SUSTAINABLE AGRO LTD <br/> Vridi Cite' Port, Abidjan, Co'te d' Ivoire 01 BP 12171, ABIDJAN 01
+                </a>
                 <a href="mailto:info@sustainableagro.net" ><IoMailOpen className="icon"/> info@sustainableagro.net</a>
                 <a href="tel:+2250507381923"><FaPhone className="icon phone-icon" /> +225 05073 81923</a>
                 <div className="social-icons">

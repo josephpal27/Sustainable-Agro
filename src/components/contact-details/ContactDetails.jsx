@@ -16,7 +16,9 @@ const ContactDetails = () => {
                         </div>
                         <div className="details-box">
                             <span>Location</span>
-                            <a href="https://maps.app.goo.gl/8ebzGpfZayKvgU2Y7" target="_blank">SUSTAINABLE AGRO Vridi Cite' Port, Abidjan, Co'te d' Ivoire 01 BP 12171, ABIDJAN 01</a>
+                            <a href="https://maps.app.goo.gl/8ebzGpfZayKvgU2Y7" target="_blank">
+                            SUSTAINABLE AGRO LTD <br/> Vridi Cite' Port, Abidjan, Co'te d' Ivoire 01 BP 12171, ABIDJAN 01
+                            </a>
                         </div>
                         <div className="details-box">
                             <span>Email Us</span>
