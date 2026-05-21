@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async";
 import CareersBanner from "../components/careers/careers-banner/CareersBanner"
 import Culture from "../components/careers/culture/Culture"
-import OpenPositions from "../components/careers/open-positions/OpenPositions"
 import WhyUs from "../components/careers/why-us/WhyUs"
 import Footer from "../components/footer/Footer"
+import CareerForm from "../components/careers/career-form/CareerForm";
 
 const Careers = () => {
     return (
@@ -16,7 +16,7 @@ const Careers = () => {
             <CareersBanner />
             <WhyUs />
             <Culture />
-            <OpenPositions />
+            <CareerForm />
             <Footer />
         </>
     )

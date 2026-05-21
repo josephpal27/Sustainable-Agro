@@ -1,21 +1,14 @@
 import './CareerForm.css';
-import { careersData } from '../../../data/careersData';
-import { useParams } from 'react-router-dom';
 
 const CareerForm = () => {
-
-    const { slug } = useParams();
-
-    const job = careersData.find(item => item.slug === slug);
-
-    if (!job) {
-        return null;
-    }
 
     return (
         <>
             <section className="career-form">
-                <h3>Applying For <span id="hyphen">-</span> <br /> <span id="job-title">{job.title}</span></h3>
+                <div className="career-form-header">
+                    <h4 data-aos="fade-up">Apply <span>Now</span></h4>
+                    <p data-aos="fade">Please fill the form below to apply</p>
+                </div>
                 <form action="">
                     <div className="input-box">
                         <label htmlFor="f_name">First Name <span>*</span></label>

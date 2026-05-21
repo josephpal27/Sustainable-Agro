@@ -1,14 +1,33 @@
-.career-form{
-    padding: 0.5rem 7% 4rem 7%;
+.career-form {
+    padding: 4rem 7% 4rem 7%;
 }
-.career-form h3{
+
+.career-form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.career-form-header h4 {
     text-align: center;
-    font-size: calc(1.1rem + 0.5vw);
+    color: #80a558;
+    font-size: calc(3.5rem + 0.5vw);
+    font-weight: 900;
 }
-.career-form h3 br{
-    display: none;
+
+.career-form-header h4 span {
+    font-weight: 300;
 }
-.career-form form{
+
+.career-form-header p {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: calc(0.7rem + 0.5vw);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.career-form form {
     background-color: #f4f4f4;
     width: 90%;
     margin: 2rem auto;
@@ -19,23 +38,28 @@
     flex-wrap: wrap;
     overflow: hidden;
 }
-.career-form form .input-box{
+
+.career-form form .input-box {
     width: 48.5%;
     display: flex;
     flex-direction: column;
 }
-.career-form form .resume-box{
+
+.career-form form .resume-box {
     width: 100%;
 }
-.career-form form .input-box label{
+
+.career-form form .input-box label {
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 500;
     color: #587638;
 }
-.career-form form .input-box label span{
+
+.career-form form .input-box label span {
     color: rgb(225, 0, 0);
 }
-.career-form form .input-box input{
+
+.career-form form .input-box input {
     font-size: calc(0.7rem + 0.5vw);
     font-weight: 500;
     margin: 0.5rem 0 1.3rem 0;
@@ -46,13 +70,16 @@
     box-shadow: rgba(0, 0, 0, 0.055) 0px 1px 4px;
     background: #fff;
 }
-.career-form form .input-box input:focus{
+
+.career-form form .input-box input:focus {
     box-shadow: rgba(0, 0, 0, 0.278) 0px 1px 4px;
 }
-.career-form form .input-box input[type="number"]::-webkit-inner-spin-button{
+
+.career-form form .input-box input[type="number"]::-webkit-inner-spin-button {
     display: none;
 }
-.career-form form button{
+
+.career-form form button {
     font-size: calc(0.7rem + 0.5vw);
     background-color: #80a558;
     color: #fff;
@@ -63,31 +90,37 @@
     margin-top: 1rem;
     transition: 0.3s ease;
 }
-.career-form form button:hover{
+
+.career-form form button:hover {
     background-color: #577538;
 }
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    .career-form{
+    .career-form {
         padding: 0.3rem 7% 3.5rem 7%;
     }
-    .career-form h3{
+
+    .career-form h3 {
         font-size: calc(1rem + 0.5vw);
     }
-    .career-form form{
+
+    .career-form form {
         margin: 1.8rem auto;
         padding: 1.8rem;
     }
-    .career-form form .input-box label{
+
+    .career-form form .input-box label {
         font-size: calc(0.65rem + 0.5vw);
     }
-    .career-form form .input-box input{
+
+    .career-form form .input-box input {
         font-size: calc(0.65rem + 0.5vw);
         margin: 0.4rem 0 1.2rem 0;
         padding: 0.8rem 0.9rem;
     }
-    .career-form form button{
+
+    .career-form form button {
         font-size: calc(0.65rem + 0.5vw);
         padding: 0.7rem 5rem;
         margin-top: 0.9rem;
@@ -95,68 +128,82 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    .career-form{
+    .career-form {
         padding: 0.4rem 7% 3rem 7%;
     }
-    .career-form h3{
+
+    .career-form h3 {
         font-size: calc(0.9rem + 0.5vw);
     }
-    .career-form form{
+
+    .career-form form {
         margin: 1.6rem auto;
         padding: 1.6rem;
     }
-    .career-form form .input-box label{
+
+    .career-form form .input-box label {
         font-size: calc(0.6rem + 0.5vw);
     }
-    .career-form form .input-box input{
+
+    .career-form form .input-box input {
         font-size: calc(0.6rem + 0.5vw);
         margin: 0.3rem 0 1.1rem 0;
         padding: 0.7rem 0.8rem;
     }
-    .career-form form button{
+
+    .career-form form button {
         font-size: calc(0.6rem + 0.5vw);
         padding: 0.65rem 4.5rem;
         margin-top: 0.8rem;
     }
-}   
+}
 
 /* Mobile screen */
 @media screen and (max-width: 768px) {
-    .career-form{
+    .career-form {
         padding: 0.5rem 1rem 2.5rem 1rem;
     }
-    .career-form h3{
+
+    .career-form h3 {
         font-size: calc(0.9rem + 0.5vw);
         line-height: 1.3;
     }
-    .career-form h3 br{
+
+    .career-form h3 br {
         display: block;
     }
-    .career-form h3 #hyphen{
+
+    .career-form h3 #hyphen {
         display: none;
     }
-    .career-form h3 #job-title{
+
+    .career-form h3 #job-title {
         font-size: calc(1.1rem + 0.5vw);
     }
-    .career-form form{
+
+    .career-form form {
         width: 100%;
         margin: 1rem auto;
         padding: 1rem;
         border-radius: 10px;
     }
-    .career-form form .input-box{
+
+    .career-form form .input-box {
         width: 100%;
     }
-    .career-form form .input-box label{
+
+    .career-form form .input-box label {
         font-size: calc(0.8rem + 0.5vw);
     }
-    .career-form form .input-box input{
+
+    .career-form form .input-box input {
         font-size: calc(0.9rem + 0.5vw);
         margin: 0.5rem 0 1rem 0;
         padding: 0.7rem 0.8rem;
         border-radius: 7px;
     }
-    .career-form form button{
+
+    .career-form form button {
         font-size: calc(1rem + 0.5vw);
         padding: 0.6rem 1rem;
         margin-top: 0.5rem;
