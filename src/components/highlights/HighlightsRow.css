@@ -1,6 +1,6 @@
 .highlights{
     padding: 0 7% 1rem 7%;
-    margin-top: -8rem;
+    margin-top: -7.5rem;
     position: relative;
     z-index: 10;
 }
@@ -71,7 +71,7 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .highlights{
-        margin-top: -7.4rem;
+        margin-top: -6.9rem;
     }
     .highlights-cards-row{
         padding: 0.9rem 0;
@@ -96,7 +96,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .highlights{
-        margin-top: -6.7rem;
+        margin-top: -6rem;
     }
     .highlights-cards-row{
         padding: 0.8rem 0;

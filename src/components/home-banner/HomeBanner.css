@@ -1,6 +1,6 @@
 .banner-slider img{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     object-fit: cover;
 }
 .swiper-slide-active img {
