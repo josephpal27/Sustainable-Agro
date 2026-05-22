@@ -23,6 +23,9 @@ const HomeBanner = () => {
                         <img src="/images/banners/home-banner-2.avif" alt="Banner Slide 2" loading="eager" />
                     </SwiperSlide>
                 </Swiper>
+                <div className="home-banner-text">
+                    <h1 data-aos="fade-up">SUSTAINABLE <br /> AGRO LTD.</h1>
+                </div>
             </section>
         </>
     )
