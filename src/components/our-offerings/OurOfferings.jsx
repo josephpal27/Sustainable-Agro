@@ -7,6 +7,10 @@ import offeringImg2 from '../../assets/images/offerings/2.avif';
 import offeringImg3 from '../../assets/images/offerings/3.avif';
 import offeringImg4 from '../../assets/images/offerings/4.avif';
 import offeringImg5 from '../../assets/images/offerings/5.jpeg';
+import offeringImg6 from '../../assets/images/offerings/butter.avif';
+import offeringImg7 from '../../assets/images/offerings/powder.avif';
+import offeringImg8 from '../../assets/images/offerings/rubber.avif';
+import offeringImg9 from '../../assets/images/offerings/cocoa-manufacturing.avif';
 
 const OurOfferings = () => {
     return (
@@ -53,6 +57,38 @@ const OurOfferings = () => {
                     <img src={offeringImg5} alt="Product" loading="lazy" />
                     <div className="layer">
                         <span data-aos="fade">Strategic Crop Programs</span>
+                    </div>
+                </div>
+                <div className="box">
+                    <img src={offeringImg6} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cocoa Butter</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
+                    </div>
+                </div>
+                <div className="box">
+                    <img src={offeringImg7} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cocoa Powder</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
+                    </div>
+                </div>
+                <div className="box">
+                    <img src={offeringImg8} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Rubber Wood</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
+                    </div>
+                </div>
+                <div className="box">
+                    <img src={offeringImg9} alt="Product" loading="lazy" />
+                    <div className="layer">
+                        <span>Cocoa Manufacturing</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>
             </section>
