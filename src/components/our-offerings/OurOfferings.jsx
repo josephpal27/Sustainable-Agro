@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 
 import offeringImg1 from '../../assets/images/offerings/1.avif';
 import offeringImg2 from '../../assets/images/offerings/2.avif';
-import offeringImg3 from '../../assets/images/offerings/3.avif';
+import offeringImg3 from '../../assets/images/offerings/teak.avif';
 import offeringImg4 from '../../assets/images/offerings/4.avif';
 import offeringImg5 from '../../assets/images/offerings/5.jpeg';
 import offeringImg6 from '../../assets/images/offerings/butter.avif';
@@ -40,8 +40,8 @@ const OurOfferings = () => {
                 <div className="box">
                     <img src={offeringImg3} alt="Product" loading="lazy" />
                     <div className="layer">
-                        <span>Timber</span>
-                        {/* <p>Regenerative soil practices and resource-efficient crop management.</p> */}
+                        <span>Teak Wood</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                         <Link to="/solutions"><Button>View Product</Button></Link>
                     </div>
                 </div>
